@@ -1,0 +1,24 @@
+PODS:
+  - FuseUI (0.1.0):
+    - FuseUI/AlertContentView (= 0.1.0)
+    - FuseUI/FUDatePicker (= 0.1.0)
+    - FuseUI/FUHotspotButton (= 0.1.0)
+    - FuseUI/FUWebController (= 0.1.0)
+  - FuseUI/AlertContentView (0.1.0)
+  - FuseUI/FUDatePicker (0.1.0)
+  - FuseUI/FUHotspotButton (0.1.0)
+  - FuseUI/FUWebController (0.1.0)
+
+DEPENDENCIES:
+  - FuseUI (from `../`)
+
+EXTERNAL SOURCES:
+  FuseUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FuseUI: d0dd38df97da824952b50d9e31579e337470ffe5
+
+PODFILE CHECKSUM: bdca1493cc35030ab4abcbf04b95a28a3940f5cf
+
+COCOAPODS: 1.11.2

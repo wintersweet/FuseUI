@@ -30,11 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FuseUI/Classes/**/*'
+#  s.source_files = 'FuseUI/Classes/**/*'
+  s.subspec 'AlertContentView' do |t|
+      t.source_files = 'FuseUI/Classes/AlertContentView/*'
+     end
+  s.subspec 'FUDatePicker' do |t|
+      t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
+     end
+  s.subspec 'FUHotspotButton' do |t|
+      t.source_files = 'FuseUI/Classes/FUHotspotButton/*.{h,m}'
+     end
+  s.subspec 'FUWebController' do |t|
+      t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
+     end
   
-  # s.resource_bundles = {
-  #   'FuseUI' => ['FuseUI/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'FuseUI' => ['FuseUI/Assets/*.xib']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
