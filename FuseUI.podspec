@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseUI'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of FuseUI.'
 
 # This description is used to generate tags and improve search results.
@@ -29,20 +29,27 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  
+#  s.subspec 'Resource' do |b|
+#      core_dir = "FuseUI/Classes/AlertContentView/"
+#      b.source_files = core_dir + "/*.{h,m}"
+#      b.ios.resource = 'FuseUI/Assets/*.xib'
+#    end
+  
 
-#  s.source_files = 'FuseUI/Classes/**/*'
-  s.subspec 'AlertContentView' do |t|
-      t.source_files = 'FuseUI/Classes/AlertContentView/*'
-     end
-  s.subspec 'FUDatePicker' do |t|
-      t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
-     end
-  s.subspec 'FUHotspotButton' do |t|
-      t.source_files = 'FuseUI/Classes/FUHotspotButton/*.{h,m}'
-     end
-  s.subspec 'FUWebController' do |t|
-      t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
-     end
+  s.source_files = 'FuseUI/Classes/**/*.{h,m}'
+#  s.subspec 'AlertContentView' do |t|
+#      t.source_files = 'FuseUI/Classes/AlertContentView/*'
+#     end
+#  s.subspec 'FUDatePicker' do |t|
+#      t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
+#     end
+#  s.subspec 'FUHotspotButton' do |t|
+#      t.source_files = 'FuseUI/Classes/FUHotspotButton/*.{h,m}'
+#     end
+#  s.subspec 'FUWebController' do |t|
+#      t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
+#     end
   
   s.resource_bundles = {
     'FuseUI' => ['FuseUI/Assets/*.xib']
@@ -51,4 +58,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FuseGroupsKits' ,'1.0.5'
 end

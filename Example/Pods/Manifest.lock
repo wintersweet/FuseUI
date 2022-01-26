@@ -1,24 +1,59 @@
 PODS:
-  - FuseUI (0.1.0):
-    - FuseUI/AlertContentView (= 0.1.0)
-    - FuseUI/FUDatePicker (= 0.1.0)
-    - FuseUI/FUHotspotButton (= 0.1.0)
-    - FuseUI/FUWebController (= 0.1.0)
-  - FuseUI/AlertContentView (0.1.0)
-  - FuseUI/FUDatePicker (0.1.0)
-  - FuseUI/FUHotspotButton (0.1.0)
-  - FuseUI/FUWebController (0.1.0)
+  - CTMediaKit (0.1.0):
+    - CTMediator
+  - CTMediator (46)
+  - FuseGroupsKits (1.0.5):
+    - CTMediaKit
+    - FuseGroupsKits/BaseComponent (= 1.0.5)
+    - YYModel
+  - FuseGroupsKits/BaseComponent (1.0.5):
+    - CTMediaKit
+    - FuseGroupsKits/BaseComponent/FuGrowTextView (= 1.0.5)
+    - FuseGroupsKits/BaseComponent/FuseCategory (= 1.0.5)
+    - FuseGroupsKits/BaseComponent/FuseLogin (= 1.0.5)
+    - FuseGroupsKits/BaseComponent/FuTextField (= 1.0.5)
+    - FuseGroupsKits/BaseComponent/MBNullSafe (= 1.0.5)
+    - YYModel
+  - FuseGroupsKits/BaseComponent/FuGrowTextView (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/BaseComponent/FuseCategory (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/BaseComponent/FuseLogin (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/BaseComponent/FuTextField (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseGroupsKits/BaseComponent/MBNullSafe (1.0.5):
+    - CTMediaKit
+    - YYModel
+  - FuseUI (1.0.0):
+    - FuseGroupsKits (= 1.0.5)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - FuseUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediaKit
+    - CTMediator
+    - FuseGroupsKits
+    - YYModel
 
 EXTERNAL SOURCES:
   FuseUI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FuseUI: d0dd38df97da824952b50d9e31579e337470ffe5
+  CTMediaKit: b6842ef3440687ded8b7d95d10e4b24569a13c1e
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  FuseGroupsKits: 43e0f17e82f550a16da59197d747bdf6e4d34036
+  FuseUI: c0f43cb16f2095458b645ec16494163d366fc3d4
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: bdca1493cc35030ab4abcbf04b95a28a3940f5cf
+PODFILE CHECKSUM: c62d7132a0be2e60ba3bbe40c2c4674523ad12f0
 
 COCOAPODS: 1.11.2

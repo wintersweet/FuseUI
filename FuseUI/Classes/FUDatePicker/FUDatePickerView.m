@@ -8,7 +8,6 @@
 
 #import "FUDatePickerView.h"
 
-#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 
 @interface FUDatePickerView ()<UIPickerViewDataSource, UIPickerViewDelegate> {
     
@@ -29,6 +28,7 @@
 @property (nonatomic, strong) UILabel *titleLab;
 
 @end
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 
 @implementation FUDatePickerView
 
