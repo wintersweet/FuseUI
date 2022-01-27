@@ -1,7 +1,7 @@
 
 
-#source 'https://github.com/wintersweet/MySpecs.git'
-
+source 'git@github.com:CocoaPods/Specs.git'
+source 'git@github.com:wintersweet/MySpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'

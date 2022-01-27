@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseUI'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of FuseUI.'
 
 # This description is used to generate tags and improve search results.
@@ -37,19 +37,22 @@ TODO: Add long description of the pod here.
 #    end
   
 
-  s.source_files = 'FuseUI/Classes/**/*.{h,m}'
-#  s.subspec 'AlertContentView' do |t|
-#      t.source_files = 'FuseUI/Classes/AlertContentView/*'
-#     end
-#  s.subspec 'FUDatePicker' do |t|
-#      t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
-#     end
-#  s.subspec 'FUHotspotButton' do |t|
-#      t.source_files = 'FuseUI/Classes/FUHotspotButton/*.{h,m}'
-#     end
-#  s.subspec 'FUWebController' do |t|
-#      t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
-#     end
+#  s.source_files = 'FuseUI/Classes/**/*.{h,m}'
+  s.subspec 'AlertContentView' do |t|
+      t.source_files = 'FuseUI/Classes/AlertContentView/*'
+     end
+  s.subspec 'FUDatePicker' do |t|
+      t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
+     end
+  s.subspec 'FUHotspotButton' do |t|
+      t.source_files = 'FuseUI/Classes/FUHotspotButton/*.{h,m}'
+     end
+  s.subspec 'FUWebController' do |t|
+      t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
+     end
+  s.subspec 'FPBottomSheetPicker' do |t|
+      t.source_files = 'FuseUI/Classes/FPBottomSheetPicker/*.{h,m}'
+     end
   
   s.resource_bundles = {
     'FuseUI' => ['FuseUI/Assets/*.xib']
