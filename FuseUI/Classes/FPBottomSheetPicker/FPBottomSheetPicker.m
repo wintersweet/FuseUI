@@ -8,7 +8,6 @@
 
 #import "FPBottomSheetPicker.h"
 #import "FPBottomSheetCell.h"
-#import "UIColor+Hex.h"
 @interface FPBottomSheetPicker ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -130,7 +129,7 @@
     if (!_titleLab) {
         _titleLab = [UILabel new];
         _titleLab.textAlignment = NSTextAlignmentCenter;
-        _titleLab.textColor = [UIColor colorWithHex:0x3F4450];
+       // _titleLab.textColor = [UIColor colorWithHex:0x3F4450];
     }
     return _titleLab;
 }
@@ -147,7 +146,7 @@
 - (UIView *)headDivider {
     if (!_headDivider) {
         _headDivider = [UIView new];
-        _headDivider.backgroundColor = [UIColor colorWithHex:0xE8E8E8];
+        //_headDivider.backgroundColor = [UIColor colorWithHex:0xE8E8E8];
     }
     return _headDivider;
 }

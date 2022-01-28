@@ -7,406 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0023CDF4616A89B57B086029965126EA /* UIImage+rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FB4B79EF8F307574D7107E74716AFF /* UIImage+rotation.m */; };
-		0036E8F9E45F1AFA51329EEDFD64624B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		017E7E7FE2C42C7D83CD0F8D4962749D /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 827588AF8F0E318EDA50F67038480A44 /* NSDate+InternetDateTime.m */; };
-		03A93695E542388803EA67AA14B84775 /* UIView+IB.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E602613CB017752E892F4D22286E36 /* UIView+IB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03EF2D2926F8DE7CE612B5344A0426AE /* UIScrollView+ResignFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E88803E13CA7C023C403EE7FAD96FA /* UIScrollView+ResignFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04364A349CF46A863DD3C159E91057E6 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB6ABFBDB83B44F3D8BEF63DAF0760B /* NSObject+YYModel.m */; };
-		065B667F0F4D5CDBD41D5B61E9C6CEE7 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320D5B37D79DB07C8AE3D8300F33519 /* NSMutableArray+NullSafe.m */; };
-		070E53BA6D5A50A581BB82FC3C5A3CD8 /* NSObject+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C3CCA270617D6190D1D45CA7F7399 /* NSObject+NullSafe.m */; };
-		08B96592BDCAAD095125748C26F81BE8 /* FUSelectTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5039E9B04871EB34C6490C7F3ED00D69 /* FUSelectTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A2B6A55613EDEA812CB7225DEC36556 /* JLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B0C087340967514ACDCAEFC77C719 /* JLTextView.m */; };
-		0B44E007239DA6F1814B60D5560E211A /* JLTextContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BB86826F260BE4786D19298C12A75B /* JLTextContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BE15C378716E7CBCB7F920CF0375013 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0952B53BDC5B11E88E9064D1E13DA4 /* CoreFoundation.framework */; };
-		101925C8D7E1FA9D74909AC723EB61D5 /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12F2C0CB6E97BF8AEA2AEBCC7E7FCC80 /* NSMutableDictionary+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 31650AA24EEFEDFB9C98D7CA6624533D /* NSMutableDictionary+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		130752DE45F5F0D86F72294B27B78AE5 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6D97D25A4EB39928F7699DEAD1E0B /* UIImage+fixOrientation.m */; };
-		14BA8A9B765C6C55BC158BC3D04B4935 /* Pods-FuseUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16315554A0E73C14138E8EF111E087B5 /* UIView+XJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 12678A4B9A0A83B72B5E87BA1FDAF31A /* UIView+XJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B5DDA123705E292F6E83BD8542169F2 /* UIScrollView+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB32949F4ACB8856857319EFC6198A8 /* UIScrollView+ResignFirstResponder.m */; };
-		1F15DD5AA61BD2CEA434931B7A0231F6 /* Target_FuseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20673CCCB75F5B19A3065697F02F1C25 /* Target_FuseLoginViewController.m */; };
-		21C27FEBEC0A212C60563BE0A489CF55 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2C8329C65693ED5BB2E28D9C42D937 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21EE62003183B72218E8467D2F67231C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BAED234D971637F97C67F9A0799273 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C786E36E05795B51520C0EF39BB43B /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00282D1731DBAFC75788079D03146E56 /* UITextView+Placeholder.m */; };
-		286F317A069362563174FE482A35B63C /* NSNull+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E73A7FAA9894BB7E5A16BCB92E4419C /* NSNull+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28B55202B9F0056F6FEA2FEA33062E2A /* FUSelectTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A690D1CA7E3D9B01A96A3071C0720 /* FUSelectTextField.m */; };
-		290589894C09EAFB2B9AAF92968536B1 /* UILabel+OptionalText.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE2B9F81129EB966FE405EEEADF729E /* UILabel+OptionalText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		294D9F18900499BD1BF7D256764010E6 /* UITableView+Tap.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E7739BD114E3337248DDA06E159A99 /* UITableView+Tap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AABEE99970BAFA16DCBF87F9D8E0CB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F050037D329D985A641112885C3C78 /* CoreGraphics.framework */; };
-		2D58E855DA77BBCD27EB9FAFF0A2F355 /* Pods-FuseUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */; };
-		300287EE95B5C535855AF99056234324 /* UILabel+OptionalText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E645203C65952499666EB8BD8F19E23 /* UILabel+OptionalText.m */; };
-		33DEC3DB3ED63B2C1D2BCB611F0E397D /* FPBottomSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */; };
-		38841AA4A161AC86B26BA53E9744BFF7 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 549EB764A6527EC146008A5C60AA7EA3 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B7543B1559E3B6F9D69EB0DBA0D040B /* UITableView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8320A41FB77680A5FC5AB38045AB7C /* UITableView+Tap.m */; };
-		3D695AFB8265F9C01FD24561D57C5DF5 /* UIBarButtonItem+XJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C362408BCF988D0388595BB06037396D /* UIBarButtonItem+XJ.m */; };
-		3F676E2C1FE4DCE964DB97ABEAEF3BDA /* UIView+radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 605416F82F9BFD2CA78AD24F0AA2243E /* UIView+radius.m */; };
-		435B3FB10D4ED9734103268F070F0122 /* FPBottomSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		478FB73AA73C48838F352D7A678890B2 /* UIBarButtonItem+XJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3105BF81A1DD940E4ED8CCB74B169D79 /* UIBarButtonItem+XJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		513C1B9A81EB45809371FC3FEF11C56C /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */; };
-		525C6D27BAEA298074F708A8CFF03B75 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4C3DACD6081EDEFF255B9107AE8EF /* NSData+Base64.m */; };
-		53C664062904D2E41F86EC791A5F4200 /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */; };
-		54CAA8B28C48E0D1B05E7AB941D302E4 /* FuseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C410D180D2E1E77E62E51FD62F51EB /* FuseLoginViewController.m */; };
-		5DAA8F469043809DEE93E858EBD1DC99 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ACE9DBB4B7E848696DE8C05B263DAF /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F4374E913089DD525BB981F5EA3509C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2FA230DD1CB84C366370696C7BC01 /* ReplaceMe.m */; };
-		5F51E62C4B7091B60D4547E63C63A21F /* UIView+load.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F0B267A589AD7CD2BAB6F86270F85B /* UIView+load.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F86BEBD614E5D38A236A58890496C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		611AF67FB0EDA2B75C88D400526F402F /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0716FB3ED3BDAFEC14038ABFA1294 /* YYClassInfo.m */; };
-		655D6FF4F89BDD8853ACE1DEB403514A /* FPBottomSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65EB3BC1C236FE9FA1F611DB3BB32409 /* UITableViewCell+reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3087C66276C75BA41F0F415A99DA86C /* UITableViewCell+reuse.m */; };
-		66D568958F84A0EDE0C34A5622BE6D55 /* NSDate+format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DACB44AF88F8863673FBBB429E48B0D /* NSDate+format.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66ED2E2CE639BC0A61AA963F8AD829AB /* UIView+XJ.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9FA4A82B54EBF2EFAA3E661E1DD74 /* UIView+XJ.m */; };
-		6A12A0F22471CCD4354121756B9FC6C4 /* NSArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B0CD81C3AF3EC144BE19A62ADDE49A /* NSArray+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A48DE14D61803294B0958CA83D889E7 /* UITableViewCell+reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB235D358043D924A16764C0313D055 /* UITableViewCell+reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB8F995DEF68022429EFBAB749E2548 /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CE59095860F420E42FFDEF89F7A3146 /* FuseLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D5A9F4BB1BCB58E229CE2A71C6B915 /* FuseLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71AD4D470A5A712DF54B1F605AA2AAE2 /* NSArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D5490ABBF0A343A8CC61A795917DCF /* NSArray+NullSafe.m */; };
-		7309C359219500C63CBD334B692DB0F0 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27312DE3DB7803ADF2D9ABEA94988E3B /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D19E293146E31E33718337EC3D04E0 /* UIImage+create.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD30354FC4B527BAFDAD336A5DC3F /* UIImage+create.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F821D11935424380A95022B36EE79F /* CTMediaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FCD069CA7AB50A4F47C910E3B820C /* CTMediaKit-dummy.m */; };
-		772C19AE4ACF758F257AC4459F4EC386 /* UIViewController+KSGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = 428BB30C4C6E157962BD0EEC92197EC8 /* UIViewController+KSGuid.m */; };
-		77E83D17CD87D2D365AC1BE6A51EB6E7 /* FPBottomSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E042B5CA919EB70FDB3AD3BCCD85321 /* NSObject+FuEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = E478225EFAEE57305FA58E2E0FF3885D /* NSObject+FuEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		803CC6807A631D73F95031E877D2DA58 /* JLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3199A25ED01D2E55D300333FEC7BFD4E /* JLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		826CAB9567528F70790E1A6954029528 /* NSObject+toModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C95C1939DFC3B7791EA4C7B8B499D54C /* NSObject+toModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82875FFE7F26F1BD45A1DBA0C2BE6C13 /* UIView+radius.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8EABF7E8AB259FA7ADCA7DA8225ED2 /* UIView+radius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852E239E493F43B06420C1A4355F2229 /* FPBottomSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */; };
-		8A693226F49B1FDE9B9693F83FFABF24 /* NSDate+InternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5B04EE76C8661D12E7C152CBB684E /* NSDate+InternetDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A6B72D09A2DFA2C6036B42CDDF0B7AC /* UIView+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C14785E63AACEE7048DD196A67D9EE0 /* UIView+load.m */; };
-		8B312AFB21A5C227B992159E0D0875DC /* UIViewController+KSGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A1E11245597902B9F561CFFDB12246 /* UIViewController+KSGuid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		905CF7171AB0AC489BD77200E1DA95B3 /* NSDate+format.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC641FF22E47D8B7360200364C7280E /* NSDate+format.m */; };
-		96830FE94A7CAEF6A441DCF0191BD188 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D1E6573637E0F3663FBC5DEE83C7B4 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972FC13A7F172FB34421C7597FBEC3AD /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */; };
-		99F7762D5090355D3BF0022B09B7D3A2 /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D46FCB89E7ABB89205EC8181F484B57 /* UIViewController+Insert.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C79E7B9187762E5761547DDCDC012F /* UIViewController+Insert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E3074C4984185193BA4A2E3DAD12983 /* NSObject+FuEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4643EBF7828E5026B4C5C0C1BD9D35AC /* NSObject+FuEmpty.m */; };
-		9F70D909471F888657C877CBBFA5EF5E /* NSMutableArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = BC322A69F868D993D895D650D49204CB /* NSMutableArray+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3ABAC0CD854D07DBAD7F490A1621B32 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC812DD35E98D9B42694695646ADCF48 /* CTMediator+HandyTools.m */; };
-		A3E6914C27F7D131C32CD19D213B8B7C /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5CA7C0E1530574E31222E74400BF6 /* YYModel-dummy.m */; };
-		A43C3FD8A8420121325EB979B76EF1E8 /* NSNull+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDD2090CB51ECC7CC7B5D424D6DA85 /* NSNull+NullSafe.m */; };
-		A4D224519E093AC2C6E0A45895F9B813 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF106A19211D40D46FA142141EFD061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		AB6293A5D3BB456D540321379CC11CB1 /* CTMediator+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6162B3C947A68386E30F91FF339A1ED9 /* CTMediator+UserInfo.m */; };
-		B302E5C760B4210675982A8B271ABAA2 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B10134831C35BE49C5E35A6AA24B0D6D /* CTMediator.m */; };
-		B3E42F9EBBDB94D2E0E138AC6B9BE16C /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */; };
-		B59CD0A76ABF1691513B285A68B0FA3E /* UIButton+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = BA839E38BB4FA25224D9F6836CE5D660 /* UIButton+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA274F2D410C231EABB164061DDB3CC2 /* NSMutableDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 954B86A5F6359385C5D24EACF99BFD00 /* NSMutableDictionary+NullSafe.m */; };
-		BB7705D56F496A55F01191C211EBCEB9 /* Target_FuseLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0805067B0C673EC7EF23D62B7055E2E /* Target_FuseLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD940E125D99E2D8EAB7700136EF13D8 /* UIImage+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997D51620A94B13250F1482320AAE9D /* UIImage+create.m */; };
-		BE0CDC8EC92BA23AC33C4A6EF77FECAD /* FPBottomSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */; };
-		BE3214435E5EDADD417F8DAB9C08AFFF /* UIViewController+Insert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A170731DF0174ACBA98D2A631824433 /* UIViewController+Insert.m */; };
-		C07A3056FDA49840C78B6D4997786FA4 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FD7A39B568456F9C7C941B6A9B05C3 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C09427FF0801EA79CEF2483FED199A91 /* UIImage+fixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DE2AEAD0BBA1B68851295580D4B3B0 /* UIImage+fixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0ABCD84AED0F78B089B21ADBFDB5715 /* UIImage+rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 640BE4367C85C678CE0E9E48FA748198 /* UIImage+rotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1F1484007BE23327AE7BDEA91EB924F /* UIButton+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D85C20075C408D0F9D23584CC1A08A7 /* UIButton+Color.m */; };
-		C29DB8DDB4B06311C831F23D4EFECCC4 /* FuseGroupsKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB8F5822BAD3DE4F618AB936318FEE /* FuseGroupsKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C324FDB785619BD29937E6B1417E7ED7 /* UIImage+Luban_iOS_Extension_h.h in Headers */ = {isa = PBXBuildFile; fileRef = C375E8B767409B017B16F8B1DADA21AE /* UIImage+Luban_iOS_Extension_h.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C388C167D99499A414F453BB3FF63C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		C4981DDD91404CA753B04B999C8BB81B /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D3CCE9CA73B99046ED3B583F328E0 /* CTMediator-dummy.m */; };
-		C591408AFE601F5607F6DCB078394AF8 /* CTMediator+UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2056C99E89C56AA9C89157EDD5B7F386 /* CTMediator+UserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9C0F3132725B153C19D6241415BA4BF /* FuseGroupsKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC125AB8D5B1C554E15E20CA8E735 /* FuseGroupsKits-dummy.m */; };
-		CAD91ED6DDDCDD982832152D45C999DD /* JLTextContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69016ABF8148B66D1B045F760ECCFC71 /* JLTextContentView.m */; };
-		CB1CA771519CAD76089241E90DF89856 /* NSObject+toModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE50D52330BD0B4CB76F872BDAA7EF5 /* NSObject+toModel.m */; };
-		D0200A3E8688011CFA86C8FF0D33B8C1 /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = 766CF8AD50EB5A41C32CEAA085AF62C5 /* UIView+IB.m */; };
-		D4A4740F5746958D9D8BA92A931275CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		D5445EE074280BFDCEF941E05BB9A290 /* UIScrollView+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05F482CD69E8068A61CF2568840B6E /* UIScrollView+touch.m */; };
-		D5EDE04A6EB1E58E621B0B7AC1FA8ACF /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D5571CE96452B7D264DDD806C72E0D75 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E42BF71DB7257F9A9208EC4B03341F /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C40CAC8D826DF743C59B433A983399 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E26F5FA32E7997396B1EE3A75D66F034 /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00824A556BFBD6885AFCA63126072DE6 /* FPBottomSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C21C4E68870421902FA94238C3AB7A3 /* FPBottomSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */; };
+		13E8B0DB30FEA4B3AA357629A94129B0 /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4E1756CA2028D9E76DD4AC3643228E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1C33251312C47F0828C73B2BC37CB373 /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */; };
+		1F2B695CCEDD529E68746D8F2885ADFB /* FPBottomSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */; };
+		2E98E9A23EE6EA462F6952CA697DE2D0 /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */; };
+		308920742B0664917FCD016E55DB1E22 /* FuseUI-FuseUI in Resources */ = {isa = PBXBuildFile; fileRef = 291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */; };
+		51B13E0E7CCF415731BA267AB3B996E0 /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */; };
+		6275D6BE2DFC8B1E6D3C2637A69D35B4 /* FPBottomSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */; };
+		68CEFA5A0110AD8DECBAF65BE3A87F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		796B3624D1D4B4E34FF41C6F444DBD62 /* FPBottomSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		861025E97F703D32B2F57BCD06758900 /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A5A80D05EECF12573B275C691CE162 /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */; };
+		8D392E23F2252661EEA77F6EBF2400EB /* Pods-FuseUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */; };
+		9802A3349C48A4775EEA8813F6E3FD73 /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */; };
+		A857BA5725117EB9287FF591FAB00014 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA423075CA12500CCEB9AE63881DF729 /* FPBottomSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */; };
+		BAB23A4282EE4AFE2A3C1FFBC22453A1 /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */; };
+		BF581AC8D72439FF2247C8A9D0D2EA59 /* Pods-FuseUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C035F5DDC2EC227164A303D137E159A7 /* FPBottomSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2680C736F7F581B01C2D05BAA87BC0E /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2E26DACBB7B451A41594A98134526F3 /* Pods-FuseUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */; };
-		E81735508118B65B50C73AE5013E933A /* FuseUI-FuseUI in Resources */ = {isa = PBXBuildFile; fileRef = 291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */; };
-		E93AFE2F751467411A79F55DF2FF86D1 /* NSObject+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8875F2E3B5B5536AA81C19E64F7B6A09 /* NSObject+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB3A99A654F7A0723FBD8169C33E6FB2 /* Pods-FuseUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF0C8BC19055F89E9D9E9CA26999188B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		F0DFD50C2EB9F6F5099770C9FE60C44A /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */; };
-		F33CB7DA6B6E3596F70B39A6528766E0 /* CTMediaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53FBBF85BE47E6D153079189BE151CE /* CTMediaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F393861E29D59D3B3C2A46FD3C3B888A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A93D2223425DB5A2D5ECCE86C4DB99EC /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6153AD8D67CF16710627B777C70C8BE /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */; };
-		F86AF235E1B4144F08F0F978F452EBCC /* FPBottomSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */; };
-		F8D2B7BF10874BD841A2B361185D3F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		F93A440F5AAA431BA1FFAB3923AFECF3 /* UIImage+Luban_iOS_Extension_h.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD893F70B9CEB782911E9BE4D924BD8 /* UIImage+Luban_iOS_Extension_h.m */; };
-		FADE148253E22D668138F1455A621EDB /* UIScrollView+touch.h in Headers */ = {isa = PBXBuildFile; fileRef = D62C412DD3CC932DDE30AF0131666EAB /* UIScrollView+touch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF73885FD12BC49A265AF1922399ADFA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BFAB181B33C3E40942AD3F0C1FFD21 /* UIColor+Hex.m */; };
+		EF0C8BC19055F89E9D9E9CA26999188B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F87A55EB77F75C22031D894733EF64C6 /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01A4DDE6D7160DA5DAD443A1CD77A97E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 242FD92FD9D890381536249734A652E2;
-			remoteInfo = CTMediaKit;
-		};
-		0D40EE838CBCB571DA381C6BA9C73ECE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		3C1C62FB205D170886A9A81D294C5786 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		548AB38AAD499AAEBDB18C6886DB0032 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB86F01C5E0EE3387A19E53575A58179;
-			remoteInfo = FuseGroupsKits;
-		};
-		652B1959229ABFEB347B3D52054FC985 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A99E9AB3E2F1EA9B81EE1018FEB80518;
-			remoteInfo = "Pods-FuseUI_Example";
-		};
-		73D893AC0F84D522A61F70D4FF462DDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		792FBD585FF4A195C2C3C6AEBD328F66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		84BACC6F36DE275214687804C635D02A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 242FD92FD9D890381536249734A652E2;
-			remoteInfo = CTMediaKit;
-		};
-		853942827FA83078676A7F29B711E58C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB86F01C5E0EE3387A19E53575A58179;
-			remoteInfo = FuseGroupsKits;
-		};
-		932F6132D9917552486DA6FB4C05D112 /* PBXContainerItemProxy */ = {
+		01C63ED40A2DEE37F36D1134B2A56240 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EFFF18788FF2EC876A77590D7588C548;
 			remoteInfo = FuseUI;
 		};
-		BED40E0B551176828759A15AEBD5B471 /* PBXContainerItemProxy */ = {
+		9DD4EA62C5B5E18CFEED58137E22C706 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 95390D0B48865752F1C1FA13FE1C0E9B;
 			remoteInfo = "FuseUI-FuseUI";
 		};
+		AC389CAF79377B62B2A882E8A300A007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99E9AB3E2F1EA9B81EE1018FEB80518;
+			remoteInfo = "Pods-FuseUI_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00282D1731DBAFC75788079D03146E56 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITextView+Placeholder.m"; sourceTree = "<group>"; };
-		00BB8F5822BAD3DE4F618AB936318FEE /* FuseGroupsKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseGroupsKits-umbrella.h"; sourceTree = "<group>"; };
-		040A690D1CA7E3D9B01A96A3071C0720 /* FUSelectTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUSelectTextField.m; path = FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/FUSelectTextField.m; sourceTree = "<group>"; };
-		07E7739BD114E3337248DDA06E159A99 /* UITableView+Tap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Tap.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableView+Tap.h"; sourceTree = "<group>"; };
-		09562F87992C90ED7DE032F9DFB69D0F /* FuseGroupsKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseGroupsKits-Info.plist"; sourceTree = "<group>"; };
-		0EC4C3DACD6081EDEFF255B9107AE8EF /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSData+Base64.m"; sourceTree = "<group>"; };
-		0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0FE2B9F81129EB966FE405EEEADF729E /* UILabel+OptionalText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+OptionalText.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UILabel+OptionalText.h"; sourceTree = "<group>"; };
-		12678A4B9A0A83B72B5E87BA1FDAF31A /* UIView+XJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XJ.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+XJ.h"; sourceTree = "<group>"; };
-		152D90A2F0E20E54B4B19F3D90AB5E90 /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
-		18208B26B118904B3C9945A2C31C10A5 /* FuseGroupsKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseGroupsKits.debug.xcconfig; sourceTree = "<group>"; };
-		1C0952B53BDC5B11E88E9064D1E13DA4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		1C2FCD069CA7AB50A4F47C910E3B820C /* CTMediaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediaKit-dummy.m"; sourceTree = "<group>"; };
-		1D7D3CCE9CA73B99046ED3B583F328E0 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
-		1DC641FF22E47D8B7360200364C7280E /* NSDate+format.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+format.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+format.m"; sourceTree = "<group>"; };
-		1E39E030A45E4729B1B6FD3A2DC4F5EF /* CTMediaKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediaKit; path = CTMediaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2056C99E89C56AA9C89157EDD5B7F386 /* CTMediator+UserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+UserInfo.h"; path = "CTMediaKit/Classes/CTMediator+UserInfo.h"; sourceTree = "<group>"; };
-		20673CCCB75F5B19A3065697F02F1C25 /* Target_FuseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_FuseLoginViewController.m; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/Target_FuseLoginViewController.m; sourceTree = "<group>"; };
-		20A0716FB3ED3BDAFEC14038ABFA1294 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
-		21D5A9F4BB1BCB58E229CE2A71C6B915 /* FuseLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FuseLoginViewController.h; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/FuseLoginViewController.h; sourceTree = "<group>"; };
-		2320D5B37D79DB07C8AE3D8300F33519 /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
-		27312DE3DB7803ADF2D9ABEA94988E3B /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
-		27C40CAC8D826DF743C59B433A983399 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
 		28F80C29ABDB38AB38A5E4F4C6721B4E /* Pods-FuseUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FuseUI-FuseUI"; path = FuseUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BA6D97D25A4EB39928F7699DEAD1E0B /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+fixOrientation.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+fixOrientation.m"; sourceTree = "<group>"; };
-		2D85C20075C408D0F9D23584CC1A08A7 /* UIButton+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Color.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIButton+Color.m"; sourceTree = "<group>"; };
-		2E05F482CD69E8068A61CF2568840B6E /* UIScrollView+touch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+touch.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+touch.m"; sourceTree = "<group>"; };
 		2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetCell.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.m; sourceTree = "<group>"; };
 		3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		30F050037D329D985A641112885C3C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		3105BF81A1DD940E4ED8CCB74B169D79 /* UIBarButtonItem+XJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+XJ.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIBarButtonItem+XJ.h"; sourceTree = "<group>"; };
-		31650AA24EEFEDFB9C98D7CA6624533D /* NSMutableDictionary+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableDictionary+NullSafe.h"; sourceTree = "<group>"; };
-		3199A25ED01D2E55D300333FEC7BFD4E /* JLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLTextView.h; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextView.h; sourceTree = "<group>"; };
-		31FD7A39B568456F9C7C941B6A9B05C3 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		339F0DAB610810895A1CFEDD3FA1FB8E /* ResourceBundle-FuseUI-FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FuseUI-FuseUI-Info.plist"; sourceTree = "<group>"; };
-		37785A219861B949E3C2621EDF710DBF /* FuseGroupsKits */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseGroupsKits; path = FuseGroupsKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetCell.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.h; sourceTree = "<group>"; };
-		39ACE9DBB4B7E848696DE8C05B263DAF /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIColor+Hex.h"; sourceTree = "<group>"; };
 		3B50AE7777CE1348C2C4C07B2BB0CDD2 /* FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseUI-Info.plist"; sourceTree = "<group>"; };
-		3DE50D52330BD0B4CB76F872BDAA7EF5 /* NSObject+toModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+toModel.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+toModel.m"; sourceTree = "<group>"; };
-		428BB30C4C6E157962BD0EEC92197EC8 /* UIViewController+KSGuid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KSGuid.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+KSGuid.m"; sourceTree = "<group>"; };
-		4643EBF7828E5026B4C5C0C1BD9D35AC /* NSObject+FuEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FuEmpty.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+FuEmpty.m"; sourceTree = "<group>"; };
-		4A170731DF0174ACBA98D2A631824433 /* UIViewController+Insert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Insert.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+Insert.m"; sourceTree = "<group>"; };
-		5039E9B04871EB34C6490C7F3ED00D69 /* FUSelectTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSelectTextField.h; path = FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/FUSelectTextField.h; sourceTree = "<group>"; };
-		520E129B48245FFD383143FE5F7AB749 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
 		5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHotspotButton.h; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.h; sourceTree = "<group>"; };
-		549EB764A6527EC146008A5C60AA7EA3 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUWebViewController.m; path = FuseUI/Classes/FUWebController/FUWebViewController.m; sourceTree = "<group>"; };
-		5C8320A41FB77680A5FC5AB38045AB7C /* UITableView+Tap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Tap.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableView+Tap.m"; sourceTree = "<group>"; };
-		5CD893F70B9CEB782911E9BE4D924BD8 /* UIImage+Luban_iOS_Extension_h.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Luban_iOS_Extension_h.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+Luban_iOS_Extension_h.m"; sourceTree = "<group>"; };
-		5DACB44AF88F8863673FBBB429E48B0D /* NSDate+format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+format.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+format.h"; sourceTree = "<group>"; };
 		5E464D9AA8EE559FCE4010AA32D6E506 /* FuseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseUI.modulemap; sourceTree = "<group>"; };
 		5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetAnimator.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.h; sourceTree = "<group>"; };
-		605416F82F9BFD2CA78AD24F0AA2243E /* UIView+radius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+radius.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+radius.m"; sourceTree = "<group>"; };
-		6162B3C947A68386E30F91FF339A1ED9 /* CTMediator+UserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+UserInfo.m"; path = "CTMediaKit/Classes/CTMediator+UserInfo.m"; sourceTree = "<group>"; };
-		640BE4367C85C678CE0E9E48FA748198 /* UIImage+rotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+rotation.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+rotation.h"; sourceTree = "<group>"; };
 		6498326A4E3B58FDA725CA1FB0E96BAD /* FuseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FuseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		66CD28E68AE24C421DA9B0297F4B802E /* Pods-FuseUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-Info.plist"; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69016ABF8148B66D1B045F760ECCFC71 /* JLTextContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLTextContentView.m; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextContentView.m; sourceTree = "<group>"; };
-		6903EE1CAD02E252821C53A2C4A32630 /* CTMediaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediaKit-prefix.pch"; sourceTree = "<group>"; };
-		6C14785E63AACEE7048DD196A67D9EE0 /* UIView+load.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+load.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+load.m"; sourceTree = "<group>"; };
-		6CEDD2090CB51ECC7CC7B5D424D6DA85 /* NSNull+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSNull+NullSafe.m"; sourceTree = "<group>"; };
-		6DB8258289DC05C436AC926895B8AA97 /* FuseGroupsKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseGroupsKits.modulemap; sourceTree = "<group>"; };
-		6E645203C65952499666EB8BD8F19E23 /* UILabel+OptionalText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+OptionalText.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UILabel+OptionalText.m"; sourceTree = "<group>"; };
 		719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUHotspotButton.m; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73417DEAF37BF777E3118BFEF5D406CD /* Pods-FuseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7593D44E421D1C560B165A35EC3700C9 /* CTMediaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediaKit.release.xcconfig; sourceTree = "<group>"; };
-		766CF8AD50EB5A41C32CEAA085AF62C5 /* UIView+IB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+IB.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+IB.m"; sourceTree = "<group>"; };
 		78FE45D863D1098885F9EF6983439713 /* Pods-FuseUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuseUI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7997D51620A94B13250F1482320AAE9D /* UIImage+create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+create.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+create.m"; sourceTree = "<group>"; };
 		7B9F879DEDB48934EB00B48FA950C7DD /* Pods-FuseUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DB6ABFBDB83B44F3D8BEF63DAF0760B /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		7EFC468E6E6CC0425D1F07E952BAC293 /* Pods-FuseUI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Example"; path = Pods_FuseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		827588AF8F0E318EDA50F67038480A44 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Tests"; path = Pods_FuseUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8875F2E3B5B5536AA81C19E64F7B6A09 /* NSObject+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSObject+NullSafe.h"; sourceTree = "<group>"; };
 		8AD6339E7860599D968F6A409C41D4F0 /* FuseUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseUI; path = FuseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DFBBDA8B59671D7E526BA2AE7558C48 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
-		8E73A7FAA9894BB7E5A16BCB92E4419C /* NSNull+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSNull+NullSafe.h"; sourceTree = "<group>"; };
 		8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNAlertTipContentView.h; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.h; sourceTree = "<group>"; };
-		8FE5CA7C0E1530574E31222E74400BF6 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.debug.xcconfig; sourceTree = "<group>"; };
-		92BFAB181B33C3E40942AD3F0C1FFD21 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIColor+Hex.m"; sourceTree = "<group>"; };
-		92FB4B79EF8F307574D7107E74716AFF /* UIImage+rotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+rotation.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+rotation.m"; sourceTree = "<group>"; };
 		94C01C5245718FDDC35CEE0B0CC0DBA3 /* Pods-FuseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		954B86A5F6359385C5D24EACF99BFD00 /* NSMutableDictionary+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableDictionary+NullSafe.m"; sourceTree = "<group>"; };
 		96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNAlertTipContentView.m; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.m; sourceTree = "<group>"; };
-		97C79E7B9187762E5761547DDCDC012F /* UIViewController+Insert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Insert.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+Insert.h"; sourceTree = "<group>"; };
-		98B0CD81C3AF3EC144BE19A62ADDE49A /* NSArray+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSArray+NullSafe.h"; sourceTree = "<group>"; };
 		9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FNAlertTipContentView.xib; path = FuseUI/Assets/FNAlertTipContentView.xib; sourceTree = "<group>"; };
-		9C4B0C087340967514ACDCAEFC77C719 /* JLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLTextView.m; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextView.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1D0AF7CE9A9C153960E9B3BDA014927 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		A2E88803E13CA7C023C403EE7FAD96FA /* UIScrollView+ResignFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ResignFirstResponder.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+ResignFirstResponder.h"; sourceTree = "<group>"; };
 		A497FF83150FC702D5831F12E9501852 /* Pods-FuseUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4BB86826F260BE4786D19298C12A75B /* JLTextContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLTextContentView.h; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextContentView.h; sourceTree = "<group>"; };
 		A646202B61D6959F044BAAA20498C098 /* Pods-FuseUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseUI_Tests.modulemap"; sourceTree = "<group>"; };
-		A6DDC125AB8D5B1C554E15E20CA8E735 /* FuseGroupsKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseGroupsKits-dummy.m"; sourceTree = "<group>"; };
-		A8D5490ABBF0A343A8CC61A795917DCF /* NSArray+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSArray+NullSafe.m"; sourceTree = "<group>"; };
-		A93D2223425DB5A2D5ECCE86C4DB99EC /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
-		A9D1E6573637E0F3663FBC5DEE83C7B4 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSData+Base64.h"; sourceTree = "<group>"; };
-		AAD5B04EE76C8661D12E7C152CBB684E /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
-		ABB32949F4ACB8856857319EFC6198A8 /* UIScrollView+ResignFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ResignFirstResponder.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+ResignFirstResponder.m"; sourceTree = "<group>"; };
 		ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Example-dummy.m"; sourceTree = "<group>"; };
-		AEA92AB3AC4B1C8140A6D3F21E65C21A /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
-		AFAEB54A8B504F23FBC3140426FDFF5D /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
-		AFF9FA4A82B54EBF2EFAA3E661E1DD74 /* UIView+XJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XJ.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+XJ.m"; sourceTree = "<group>"; };
 		B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPBottomSheetCell.xib; path = FuseUI/Assets/FPBottomSheetCell.xib; sourceTree = "<group>"; };
-		B10134831C35BE49C5E35A6AA24B0D6D /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetPicker.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.h; sourceTree = "<group>"; };
-		B3087C66276C75BA41F0F415A99DA86C /* UITableViewCell+reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+reuse.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableViewCell+reuse.m"; sourceTree = "<group>"; };
 		B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetPicker.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.m; sourceTree = "<group>"; };
-		BA839E38BB4FA25224D9F6836CE5D660 /* UIButton+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Color.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIButton+Color.h"; sourceTree = "<group>"; };
-		BC322A69F868D993D895D650D49204CB /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
-		BC5771AED519D7279C8A29A8710FB62D /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
-		BD2F2A2C385A2D3304356B9DF7CF7E90 /* CTMediaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediaKit.debug.xcconfig; sourceTree = "<group>"; };
 		BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDatePickerView.h; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.h; sourceTree = "<group>"; };
-		C0805067B0C673EC7EF23D62B7055E2E /* Target_FuseLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_FuseLoginViewController.h; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/Target_FuseLoginViewController.h; sourceTree = "<group>"; };
-		C362408BCF988D0388595BB06037396D /* UIBarButtonItem+XJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+XJ.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIBarButtonItem+XJ.m"; sourceTree = "<group>"; };
-		C375E8B767409B017B16F8B1DADA21AE /* UIImage+Luban_iOS_Extension_h.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Luban_iOS_Extension_h.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+Luban_iOS_Extension_h.h"; sourceTree = "<group>"; };
-		C53FBBF85BE47E6D153079189BE151CE /* CTMediaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediaKit-umbrella.h"; sourceTree = "<group>"; };
 		C5A871C24781BE861AAAE824ED6E66F0 /* Pods-FuseUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6A1E11245597902B9F561CFFDB12246 /* UIViewController+KSGuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KSGuid.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+KSGuid.h"; sourceTree = "<group>"; };
-		C6E602613CB017752E892F4D22286E36 /* UIView+IB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+IB.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+IB.h"; sourceTree = "<group>"; };
-		C95C1939DFC3B7791EA4C7B8B499D54C /* NSObject+toModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+toModel.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+toModel.h"; sourceTree = "<group>"; };
-		CCB235D358043D924A16764C0313D055 /* UITableViewCell+reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+reuse.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableViewCell+reuse.h"; sourceTree = "<group>"; };
 		CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUWebViewController.h; path = FuseUI/Classes/FUWebController/FUWebViewController.h; sourceTree = "<group>"; };
 		CE7EF7475C0DBD09E42C6AFF9A23E7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CF22E13268F67ADEF307709276D8CA5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D034AF7C0729E12C0F1A7ACA9286F130 /* FuseGroupsKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseGroupsKits.release.xcconfig; sourceTree = "<group>"; };
-		D1BAED234D971637F97C67F9A0799273 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		D32349E978856A56BC5DF238566ECD87 /* FuseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-prefix.pch"; sourceTree = "<group>"; };
 		D3253C582B4F15DECFAAFDB2D10E7080 /* Pods-FuseUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		D5571CE96452B7D264DDD806C72E0D75 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		D62C412DD3CC932DDE30AF0131666EAB /* UIScrollView+touch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+touch.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+touch.h"; sourceTree = "<group>"; };
-		D6C2FA230DD1CB84C366370696C7BC01 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CTMediaKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		D6DE2AEAD0BBA1B68851295580D4B3B0 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+fixOrientation.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+fixOrientation.h"; sourceTree = "<group>"; };
-		D89AC55A8BADF2D7647AB92FACFD4596 /* CTMediaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediaKit.modulemap; sourceTree = "<group>"; };
-		DB8EABF7E8AB259FA7ADCA7DA8225ED2 /* UIView+radius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+radius.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+radius.h"; sourceTree = "<group>"; };
 		DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.release.xcconfig; sourceTree = "<group>"; };
 		E38F1B6E13FD8E26B5B809DC67AC431C /* Pods-FuseUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3F0B267A589AD7CD2BAB6F86270F85B /* UIView+load.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+load.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+load.h"; sourceTree = "<group>"; };
-		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E478225EFAEE57305FA58E2E0FF3885D /* NSObject+FuEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FuEmpty.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+FuEmpty.h"; sourceTree = "<group>"; };
 		E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseUI-dummy.m"; sourceTree = "<group>"; };
 		E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetAnimator.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.m; sourceTree = "<group>"; };
 		E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUDatePickerView.m; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.m; sourceTree = "<group>"; };
-		E95C3CCA270617D6190D1D45CA7F7399 /* NSObject+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSObject+NullSafe.m"; sourceTree = "<group>"; };
-		EB4876315B13F9A07320B1579E209AFB /* CTMediaKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediaKit-Info.plist"; sourceTree = "<group>"; };
-		EC812DD35E98D9B42694695646ADCF48 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
-		ED2C8329C65693ED5BB2E28D9C42D937 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-umbrella.h"; sourceTree = "<group>"; };
-		EED5CF97D15077192D16DBB6DF9DDC12 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
-		F3CC08AE541815FAA4250EE8CFADAE9E /* FuseGroupsKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseGroupsKits-prefix.pch"; sourceTree = "<group>"; };
-		F6C410D180D2E1E77E62E51FD62F51EB /* FuseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FuseLoginViewController.m; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/FuseLoginViewController.m; sourceTree = "<group>"; };
-		F7FDD30354FC4B527BAFDAD336A5DC3F /* UIImage+create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+create.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+create.h"; sourceTree = "<group>"; };
-		F8FDBA3C2444824BED2AB1810FB2549F /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		F986A3F3D2DA1F53AC13B07E291CC895 /* Pods-FuseUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseUI_Example.modulemap"; sourceTree = "<group>"; };
 		FCDE4A6D96BDBD04967099E2AB2B7FA7 /* Pods-FuseUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE3287296D4489D6852A853D357FF88C /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
 		FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		133EEC82CFC3C58680DCC4DFE4BA0C66 /* Frameworks */ = {
+		5336DBCDC31D74E8B4F537908A5B05BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F86BEBD614E5D38A236A58890496C5E /* Foundation.framework in Frameworks */,
+				68CEFA5A0110AD8DECBAF65BE3A87F03 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FCF3D00F075A9FC73C8A766F5C1F3F4 /* Frameworks */ = {
+		695497A053DC1C55998560E4307B1F93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A4740F5746958D9D8BA92A931275CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72AD17A4B0D80EA64AA6D501B620BC5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036E8F9E45F1AFA51329EEDFD64624B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9407E18DD349498610FF5630181529C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BE15C378716E7CBCB7F920CF0375013 /* CoreFoundation.framework in Frameworks */,
-				C388C167D99499A414F453BB3FF63C6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,39 +136,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAF74E5A4D7C00075460F2C656C50E1 /* Frameworks */ = {
+		C31785B835B62B39EC52E074A35493E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCB9EE0282E72D49B7A504F7FECD3DC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8D2B7BF10874BD841A2B361185D3F20 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD8C412258A8A587ABCBF24FD7FF99C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AABEE99970BAFA16DCBF87F9D8E0CB0 /* CoreGraphics.framework in Frameworks */,
-				AAF106A19211D40D46FA142141EFD061 /* Foundation.framework in Frameworks */,
+				1B4E1756CA2028D9E76DD4AC3643228E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		15113F3354056F8B43A3D97C8041E6F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D10758F3B787DE0C8D1B6139B4773FAD /* iOS */,
+				8AD6339E7860599D968F6A409C41D4F0 /* FuseUI */,
+				291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */,
+				7EFC468E6E6CC0425D1F07E952BAC293 /* Pods-FuseUI_Example */,
+				860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		1C9C06F3193DCBB859FC9055F4F01302 /* Development Pods */ = {
@@ -459,157 +164,6 @@
 				BD1E9AA856D74D81D064AE92E80F9468 /* FuseUI */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		26E7AE604A637977C2BB5B5405DCF108 /* MBNullSafe */ = {
-			isa = PBXGroup;
-			children = (
-				98B0CD81C3AF3EC144BE19A62ADDE49A /* NSArray+NullSafe.h */,
-				A8D5490ABBF0A343A8CC61A795917DCF /* NSArray+NullSafe.m */,
-				BC322A69F868D993D895D650D49204CB /* NSMutableArray+NullSafe.h */,
-				2320D5B37D79DB07C8AE3D8300F33519 /* NSMutableArray+NullSafe.m */,
-				31650AA24EEFEDFB9C98D7CA6624533D /* NSMutableDictionary+NullSafe.h */,
-				954B86A5F6359385C5D24EACF99BFD00 /* NSMutableDictionary+NullSafe.m */,
-				8E73A7FAA9894BB7E5A16BCB92E4419C /* NSNull+NullSafe.h */,
-				6CEDD2090CB51ECC7CC7B5D424D6DA85 /* NSNull+NullSafe.m */,
-				8875F2E3B5B5536AA81C19E64F7B6A09 /* NSObject+NullSafe.h */,
-				E95C3CCA270617D6190D1D45CA7F7399 /* NSObject+NullSafe.m */,
-			);
-			name = MBNullSafe;
-			sourceTree = "<group>";
-		};
-		2B4F47BF2AA788704E2C7975F9D03C1E /* FuseCategory */ = {
-			isa = PBXGroup;
-			children = (
-				A9D1E6573637E0F3663FBC5DEE83C7B4 /* NSData+Base64.h */,
-				0EC4C3DACD6081EDEFF255B9107AE8EF /* NSData+Base64.m */,
-				5DACB44AF88F8863673FBBB429E48B0D /* NSDate+format.h */,
-				1DC641FF22E47D8B7360200364C7280E /* NSDate+format.m */,
-				AAD5B04EE76C8661D12E7C152CBB684E /* NSDate+InternetDateTime.h */,
-				827588AF8F0E318EDA50F67038480A44 /* NSDate+InternetDateTime.m */,
-				E478225EFAEE57305FA58E2E0FF3885D /* NSObject+FuEmpty.h */,
-				4643EBF7828E5026B4C5C0C1BD9D35AC /* NSObject+FuEmpty.m */,
-				C95C1939DFC3B7791EA4C7B8B499D54C /* NSObject+toModel.h */,
-				3DE50D52330BD0B4CB76F872BDAA7EF5 /* NSObject+toModel.m */,
-				3105BF81A1DD940E4ED8CCB74B169D79 /* UIBarButtonItem+XJ.h */,
-				C362408BCF988D0388595BB06037396D /* UIBarButtonItem+XJ.m */,
-				BA839E38BB4FA25224D9F6836CE5D660 /* UIButton+Color.h */,
-				2D85C20075C408D0F9D23584CC1A08A7 /* UIButton+Color.m */,
-				39ACE9DBB4B7E848696DE8C05B263DAF /* UIColor+Hex.h */,
-				92BFAB181B33C3E40942AD3F0C1FFD21 /* UIColor+Hex.m */,
-				F7FDD30354FC4B527BAFDAD336A5DC3F /* UIImage+create.h */,
-				7997D51620A94B13250F1482320AAE9D /* UIImage+create.m */,
-				D6DE2AEAD0BBA1B68851295580D4B3B0 /* UIImage+fixOrientation.h */,
-				2BA6D97D25A4EB39928F7699DEAD1E0B /* UIImage+fixOrientation.m */,
-				C375E8B767409B017B16F8B1DADA21AE /* UIImage+Luban_iOS_Extension_h.h */,
-				5CD893F70B9CEB782911E9BE4D924BD8 /* UIImage+Luban_iOS_Extension_h.m */,
-				640BE4367C85C678CE0E9E48FA748198 /* UIImage+rotation.h */,
-				92FB4B79EF8F307574D7107E74716AFF /* UIImage+rotation.m */,
-				0FE2B9F81129EB966FE405EEEADF729E /* UILabel+OptionalText.h */,
-				6E645203C65952499666EB8BD8F19E23 /* UILabel+OptionalText.m */,
-				A2E88803E13CA7C023C403EE7FAD96FA /* UIScrollView+ResignFirstResponder.h */,
-				ABB32949F4ACB8856857319EFC6198A8 /* UIScrollView+ResignFirstResponder.m */,
-				D62C412DD3CC932DDE30AF0131666EAB /* UIScrollView+touch.h */,
-				2E05F482CD69E8068A61CF2568840B6E /* UIScrollView+touch.m */,
-				07E7739BD114E3337248DDA06E159A99 /* UITableView+Tap.h */,
-				5C8320A41FB77680A5FC5AB38045AB7C /* UITableView+Tap.m */,
-				CCB235D358043D924A16764C0313D055 /* UITableViewCell+reuse.h */,
-				B3087C66276C75BA41F0F415A99DA86C /* UITableViewCell+reuse.m */,
-				31FD7A39B568456F9C7C941B6A9B05C3 /* UITextView+Placeholder.h */,
-				00282D1731DBAFC75788079D03146E56 /* UITextView+Placeholder.m */,
-				C6E602613CB017752E892F4D22286E36 /* UIView+IB.h */,
-				766CF8AD50EB5A41C32CEAA085AF62C5 /* UIView+IB.m */,
-				E3F0B267A589AD7CD2BAB6F86270F85B /* UIView+load.h */,
-				6C14785E63AACEE7048DD196A67D9EE0 /* UIView+load.m */,
-				DB8EABF7E8AB259FA7ADCA7DA8225ED2 /* UIView+radius.h */,
-				605416F82F9BFD2CA78AD24F0AA2243E /* UIView+radius.m */,
-				12678A4B9A0A83B72B5E87BA1FDAF31A /* UIView+XJ.h */,
-				AFF9FA4A82B54EBF2EFAA3E661E1DD74 /* UIView+XJ.m */,
-				97C79E7B9187762E5761547DDCDC012F /* UIViewController+Insert.h */,
-				4A170731DF0174ACBA98D2A631824433 /* UIViewController+Insert.m */,
-				C6A1E11245597902B9F561CFFDB12246 /* UIViewController+KSGuid.h */,
-				428BB30C4C6E157962BD0EEC92197EC8 /* UIViewController+KSGuid.m */,
-			);
-			name = FuseCategory;
-			sourceTree = "<group>";
-		};
-		2C56CFB4E2BDD17AD20D85D1ADB378F3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEA92AB3AC4B1C8140A6D3F21E65C21A /* YYModel.modulemap */,
-				8FE5CA7C0E1530574E31222E74400BF6 /* YYModel-dummy.m */,
-				520E129B48245FFD383143FE5F7AB749 /* YYModel-Info.plist */,
-				F8FDBA3C2444824BED2AB1810FB2549F /* YYModel-prefix.pch */,
-				549EB764A6527EC146008A5C60AA7EA3 /* YYModel-umbrella.h */,
-				FE3287296D4489D6852A853D357FF88C /* YYModel.debug.xcconfig */,
-				BC5771AED519D7279C8A29A8710FB62D /* YYModel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYModel";
-			sourceTree = "<group>";
-		};
-		2DD42C0FD001A845875452DC33A9BC3D /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				A93D2223425DB5A2D5ECCE86C4DB99EC /* CTMediator.h */,
-				B10134831C35BE49C5E35A6AA24B0D6D /* CTMediator.m */,
-				ED2C8329C65693ED5BB2E28D9C42D937 /* CTMediator+HandyTools.h */,
-				EC812DD35E98D9B42694695646ADCF48 /* CTMediator+HandyTools.m */,
-				3385B1D6D8CBEC936A820638A16F6163 /* Support Files */,
-			);
-			name = CTMediator;
-			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		3385B1D6D8CBEC936A820638A16F6163 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DFBBDA8B59671D7E526BA2AE7558C48 /* CTMediator.modulemap */,
-				1D7D3CCE9CA73B99046ED3B583F328E0 /* CTMediator-dummy.m */,
-				AFAEB54A8B504F23FBC3140426FDFF5D /* CTMediator-Info.plist */,
-				A1D0AF7CE9A9C153960E9B3BDA014927 /* CTMediator-prefix.pch */,
-				D1BAED234D971637F97C67F9A0799273 /* CTMediator-umbrella.h */,
-				EED5CF97D15077192D16DBB6DF9DDC12 /* CTMediator.debug.xcconfig */,
-				152D90A2F0E20E54B4B19F3D90AB5E90 /* CTMediator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CTMediator";
-			sourceTree = "<group>";
-		};
-		34862751C79D591722E0D37CE27C01CF /* FuTextField */ = {
-			isa = PBXGroup;
-			children = (
-				5039E9B04871EB34C6490C7F3ED00D69 /* FUSelectTextField.h */,
-				040A690D1CA7E3D9B01A96A3071C0720 /* FUSelectTextField.m */,
-			);
-			name = FuTextField;
-			sourceTree = "<group>";
-		};
-		36EB1A85F25C2A1E80CDB398CCDE2E7E /* CTMediaKit */ = {
-			isa = PBXGroup;
-			children = (
-				2056C99E89C56AA9C89157EDD5B7F386 /* CTMediator+UserInfo.h */,
-				6162B3C947A68386E30F91FF339A1ED9 /* CTMediator+UserInfo.m */,
-				D6C2FA230DD1CB84C366370696C7BC01 /* ReplaceMe.m */,
-				69B76C72FF5F71EFBD8342C8ACBEF632 /* Support Files */,
-			);
-			name = CTMediaKit;
-			path = CTMediaKit;
-			sourceTree = "<group>";
-		};
-		403A5440755A7A470BBB0E95857DA3CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E39E030A45E4729B1B6FD3A2DC4F5EF /* CTMediaKit */,
-				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */,
-				37785A219861B949E3C2621EDF710DBF /* FuseGroupsKits */,
-				8AD6339E7860599D968F6A409C41D4F0 /* FuseUI */,
-				291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */,
-				7EFC468E6E6CC0425D1F07E952BAC293 /* Pods-FuseUI_Example */,
-				860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */,
-				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		403C7136A8FA9B2F7D3A83E64D9D037E /* Pods-FuseUI_Example */ = {
@@ -629,40 +183,12 @@
 			path = "Target Support Files/Pods-FuseUI_Example";
 			sourceTree = "<group>";
 		};
-		4E9E34F78FE81235A2584E4AB3DD2832 /* FuseGroupsKits */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				926BDD406A57B9E930F7F115A0ECDF05 /* BaseComponent */,
-				7D058ED5B993D188AB5CE8C79363BF96 /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = FuseGroupsKits;
-			path = FuseGroupsKits;
-			sourceTree = "<group>";
-		};
-		591A7346190A53F96D1AFCA1E266B635 /* FuGrowTextView */ = {
-			isa = PBXGroup;
-			children = (
-				A4BB86826F260BE4786D19298C12A75B /* JLTextContentView.h */,
-				69016ABF8148B66D1B045F760ECCFC71 /* JLTextContentView.m */,
-				3199A25ED01D2E55D300333FEC7BFD4E /* JLTextView.h */,
-				9C4B0C087340967514ACDCAEFC77C719 /* JLTextView.m */,
-			);
-			name = FuGrowTextView;
-			sourceTree = "<group>";
-		};
-		69B76C72FF5F71EFBD8342C8ACBEF632 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D89AC55A8BADF2D7647AB92FACFD4596 /* CTMediaKit.modulemap */,
-				1C2FCD069CA7AB50A4F47C910E3B820C /* CTMediaKit-dummy.m */,
-				EB4876315B13F9A07320B1579E209AFB /* CTMediaKit-Info.plist */,
-				6903EE1CAD02E252821C53A2C4A32630 /* CTMediaKit-prefix.pch */,
-				C53FBBF85BE47E6D153079189BE151CE /* CTMediaKit-umbrella.h */,
-				BD2F2A2C385A2D3304356B9DF7CF7E90 /* CTMediaKit.debug.xcconfig */,
-				7593D44E421D1C560B165A35EC3700C9 /* CTMediaKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CTMediaKit";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6B6028EB6F47B6057E328D4785BE1B58 /* FUWebController */ = {
@@ -683,32 +209,6 @@
 			name = FUDatePicker;
 			sourceTree = "<group>";
 		};
-		739D1BAD76C6DDE1D6BABB50F1DB9125 /* FuseLogin */ = {
-			isa = PBXGroup;
-			children = (
-				21D5A9F4BB1BCB58E229CE2A71C6B915 /* FuseLoginViewController.h */,
-				F6C410D180D2E1E77E62E51FD62F51EB /* FuseLoginViewController.m */,
-				C0805067B0C673EC7EF23D62B7055E2E /* Target_FuseLoginViewController.h */,
-				20673CCCB75F5B19A3065697F02F1C25 /* Target_FuseLoginViewController.m */,
-			);
-			name = FuseLogin;
-			sourceTree = "<group>";
-		};
-		7D058ED5B993D188AB5CE8C79363BF96 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6DB8258289DC05C436AC926895B8AA97 /* FuseGroupsKits.modulemap */,
-				A6DDC125AB8D5B1C554E15E20CA8E735 /* FuseGroupsKits-dummy.m */,
-				09562F87992C90ED7DE032F9DFB69D0F /* FuseGroupsKits-Info.plist */,
-				F3CC08AE541815FAA4250EE8CFADAE9E /* FuseGroupsKits-prefix.pch */,
-				00BB8F5822BAD3DE4F618AB936318FEE /* FuseGroupsKits-umbrella.h */,
-				18208B26B118904B3C9945A2C31C10A5 /* FuseGroupsKits.debug.xcconfig */,
-				D034AF7C0729E12C0F1A7ACA9286F130 /* FuseGroupsKits.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FuseGroupsKits";
-			sourceTree = "<group>";
-		};
 		89E4DBFD374E5379E6BF887042C3D695 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,29 +216,6 @@
 				E8938CF5C3ABA122A372CCC587F30669 /* Pods-FuseUI_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8C48D72A57166FE9AA98C9D0F0B8A644 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				36EB1A85F25C2A1E80CDB398CCDE2E7E /* CTMediaKit */,
-				2DD42C0FD001A845875452DC33A9BC3D /* CTMediator */,
-				4E9E34F78FE81235A2584E4AB3DD2832 /* FuseGroupsKits */,
-				A21CD5476C59EEBC8BBA6057F1D10807 /* YYModel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		926BDD406A57B9E930F7F115A0ECDF05 /* BaseComponent */ = {
-			isa = PBXGroup;
-			children = (
-				591A7346190A53F96D1AFCA1E266B635 /* FuGrowTextView */,
-				2B4F47BF2AA788704E2C7975F9D03C1E /* FuseCategory */,
-				739D1BAD76C6DDE1D6BABB50F1DB9125 /* FuseLogin */,
-				34862751C79D591722E0D37CE27C01CF /* FuTextField */,
-				26E7AE604A637977C2BB5B5405DCF108 /* MBNullSafe */,
-			);
-			name = BaseComponent;
 			sourceTree = "<group>";
 		};
 		9D813FFF3F15368E656F64FE3BC45DC6 /* Pod */ = {
@@ -749,20 +226,6 @@
 				CF22E13268F67ADEF307709276D8CA5A /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		A21CD5476C59EEBC8BBA6057F1D10807 /* YYModel */ = {
-			isa = PBXGroup;
-			children = (
-				27312DE3DB7803ADF2D9ABEA94988E3B /* NSObject+YYModel.h */,
-				7DB6ABFBDB83B44F3D8BEF63DAF0760B /* NSObject+YYModel.m */,
-				D5571CE96452B7D264DDD806C72E0D75 /* YYClassInfo.h */,
-				20A0716FB3ED3BDAFEC14038ABFA1294 /* YYClassInfo.m */,
-				27C40CAC8D826DF743C59B433A983399 /* YYModel.h */,
-				2C56CFB4E2BDD17AD20D85D1ADB378F3 /* Support Files */,
-			);
-			name = YYModel;
-			path = YYModel;
 			sourceTree = "<group>";
 		};
 		AB0CEDFDA7CB8786C7CE6ED4E204CD95 /* Support Files */ = {
@@ -812,21 +275,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1C9C06F3193DCBB859FC9055F4F01302 /* Development Pods */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				8C48D72A57166FE9AA98C9D0F0B8A644 /* Pods */,
-				403A5440755A7A470BBB0E95857DA3CA /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				15113F3354056F8B43A3D97C8041E6F9 /* Products */,
 				89E4DBFD374E5379E6BF887042C3D695 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D10758F3B787DE0C8D1B6139B4773FAD /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C0952B53BDC5B11E88E9064D1E13DA4 /* CoreFoundation.framework */,
-				30F050037D329D985A641112885C3C78 /* CoreGraphics.framework */,
-				0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E1166E8FE6991FDC86D853C4AAE1CEF2 /* FUHotspotButton */ = {
@@ -870,20 +330,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14F95A4F991EEA07A242C8DCE73FBEF0 /* Headers */ = {
+		0E0F5E4748FA7A44A94348E83E810A69 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BA8A9B765C6C55BC158BC3D04B4935 /* Pods-FuseUI_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2292E10624370B8505E9062132F6224A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F33CB7DA6B6E3596F70B39A6528766E0 /* CTMediaKit-umbrella.h in Headers */,
-				C591408AFE601F5607F6DCB078394AF8 /* CTMediator+UserInfo.h in Headers */,
+				13E8B0DB30FEA4B3AA357629A94129B0 /* FNAlertTipContentView.h in Headers */,
+				796B3624D1D4B4E34FF41C6F444DBD62 /* FPBottomSheetAnimator.h in Headers */,
+				C035F5DDC2EC227164A303D137E159A7 /* FPBottomSheetCell.h in Headers */,
+				00824A556BFBD6885AFCA63126072DE6 /* FPBottomSheetPicker.h in Headers */,
+				A857BA5725117EB9287FF591FAB00014 /* FUDatePickerView.h in Headers */,
+				861025E97F703D32B2F57BCD06758900 /* FUHotspotButton.h in Headers */,
+				F87A55EB77F75C22031D894733EF64C6 /* FuseUI-umbrella.h in Headers */,
+				C2680C736F7F581B01C2D05BAA87BC0E /* FUWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -895,149 +353,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C6625D5D01D3A1F303AE5AE362D2848 /* Headers */ = {
+		99A7CE63EBA765F779704FE941DF0E12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7309C359219500C63CBD334B692DB0F0 /* NSObject+YYModel.h in Headers */,
-				D5EDE04A6EB1E58E621B0B7AC1FA8ACF /* YYClassInfo.h in Headers */,
-				D9E42BF71DB7257F9A9208EC4B03341F /* YYModel.h in Headers */,
-				38841AA4A161AC86B26BA53E9744BFF7 /* YYModel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A37BFC249219AF336172D0D5B69E28AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E26F5FA32E7997396B1EE3A75D66F034 /* FNAlertTipContentView.h in Headers */,
-				435B3FB10D4ED9734103268F070F0122 /* FPBottomSheetAnimator.h in Headers */,
-				77E83D17CD87D2D365AC1BE6A51EB6E7 /* FPBottomSheetCell.h in Headers */,
-				655D6FF4F89BDD8853ACE1DEB403514A /* FPBottomSheetPicker.h in Headers */,
-				A4D224519E093AC2C6E0A45895F9B813 /* FUDatePickerView.h in Headers */,
-				101925C8D7E1FA9D74909AC723EB61D5 /* FUHotspotButton.h in Headers */,
-				99F7762D5090355D3BF0022B09B7D3A2 /* FuseUI-umbrella.h in Headers */,
-				6AB8F995DEF68022429EFBAB749E2548 /* FUWebViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7CD0DEA2C643EFC84463A9859BE9538 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F393861E29D59D3B3C2A46FD3C3B888A /* CTMediator.h in Headers */,
-				21C27FEBEC0A212C60563BE0A489CF55 /* CTMediator+HandyTools.h in Headers */,
-				21EE62003183B72218E8467D2F67231C /* CTMediator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1B434C20830675DDACD66AD84BFDB96 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C29DB8DDB4B06311C831F23D4EFECCC4 /* FuseGroupsKits-umbrella.h in Headers */,
-				08B96592BDCAAD095125748C26F81BE8 /* FUSelectTextField.h in Headers */,
-				6CE59095860F420E42FFDEF89F7A3146 /* FuseLoginViewController.h in Headers */,
-				0B44E007239DA6F1814B60D5560E211A /* JLTextContentView.h in Headers */,
-				803CC6807A631D73F95031E877D2DA58 /* JLTextView.h in Headers */,
-				6A12A0F22471CCD4354121756B9FC6C4 /* NSArray+NullSafe.h in Headers */,
-				96830FE94A7CAEF6A441DCF0191BD188 /* NSData+Base64.h in Headers */,
-				66D568958F84A0EDE0C34A5622BE6D55 /* NSDate+format.h in Headers */,
-				8A693226F49B1FDE9B9693F83FFABF24 /* NSDate+InternetDateTime.h in Headers */,
-				9F70D909471F888657C877CBBFA5EF5E /* NSMutableArray+NullSafe.h in Headers */,
-				12F2C0CB6E97BF8AEA2AEBCC7E7FCC80 /* NSMutableDictionary+NullSafe.h in Headers */,
-				286F317A069362563174FE482A35B63C /* NSNull+NullSafe.h in Headers */,
-				7E042B5CA919EB70FDB3AD3BCCD85321 /* NSObject+FuEmpty.h in Headers */,
-				E93AFE2F751467411A79F55DF2FF86D1 /* NSObject+NullSafe.h in Headers */,
-				826CAB9567528F70790E1A6954029528 /* NSObject+toModel.h in Headers */,
-				BB7705D56F496A55F01191C211EBCEB9 /* Target_FuseLoginViewController.h in Headers */,
-				478FB73AA73C48838F352D7A678890B2 /* UIBarButtonItem+XJ.h in Headers */,
-				B59CD0A76ABF1691513B285A68B0FA3E /* UIButton+Color.h in Headers */,
-				5DAA8F469043809DEE93E858EBD1DC99 /* UIColor+Hex.h in Headers */,
-				74D19E293146E31E33718337EC3D04E0 /* UIImage+create.h in Headers */,
-				C09427FF0801EA79CEF2483FED199A91 /* UIImage+fixOrientation.h in Headers */,
-				C324FDB785619BD29937E6B1417E7ED7 /* UIImage+Luban_iOS_Extension_h.h in Headers */,
-				C0ABCD84AED0F78B089B21ADBFDB5715 /* UIImage+rotation.h in Headers */,
-				290589894C09EAFB2B9AAF92968536B1 /* UILabel+OptionalText.h in Headers */,
-				03EF2D2926F8DE7CE612B5344A0426AE /* UIScrollView+ResignFirstResponder.h in Headers */,
-				FADE148253E22D668138F1455A621EDB /* UIScrollView+touch.h in Headers */,
-				294D9F18900499BD1BF7D256764010E6 /* UITableView+Tap.h in Headers */,
-				6A48DE14D61803294B0958CA83D889E7 /* UITableViewCell+reuse.h in Headers */,
-				C07A3056FDA49840C78B6D4997786FA4 /* UITextView+Placeholder.h in Headers */,
-				03A93695E542388803EA67AA14B84775 /* UIView+IB.h in Headers */,
-				5F51E62C4B7091B60D4547E63C63A21F /* UIView+load.h in Headers */,
-				82875FFE7F26F1BD45A1DBA0C2BE6C13 /* UIView+radius.h in Headers */,
-				16315554A0E73C14138E8EF111E087B5 /* UIView+XJ.h in Headers */,
-				9D46FCB89E7ABB89205EC8181F484B57 /* UIViewController+Insert.h in Headers */,
-				8B312AFB21A5C227B992159E0D0875DC /* UIViewController+KSGuid.h in Headers */,
+				BF581AC8D72439FF2247C8A9D0D2EA59 /* Pods-FuseUI_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		242FD92FD9D890381536249734A652E2 /* CTMediaKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00408E4DA015DA1B5337370864A11756 /* Build configuration list for PBXNativeTarget "CTMediaKit" */;
-			buildPhases = (
-				2292E10624370B8505E9062132F6224A /* Headers */,
-				F7CD50EF2F8A2D8769FF5CE5E7A16321 /* Sources */,
-				72AD17A4B0D80EA64AA6D501B620BC5B /* Frameworks */,
-				2C023336BE29023D779BA254D2FAFD88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				54F4D6F8AD84304D535847E58BDE672A /* PBXTargetDependency */,
-			);
-			name = CTMediaKit;
-			productName = CTMediaKit;
-			productReference = 1E39E030A45E4729B1B6FD3A2DC4F5EF /* CTMediaKit */;
-			productType = "com.apple.product-type.framework";
-		};
-		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC15AAA709E4A0C81AFB046E924F540F /* Build configuration list for PBXNativeTarget "CTMediator" */;
-			buildPhases = (
-				B7CD0DEA2C643EFC84463A9859BE9538 /* Headers */,
-				B115AE005CC1960BC69BF1F26009A15E /* Sources */,
-				DD8C412258A8A587ABCBF24FD7FF99C3 /* Frameworks */,
-				19781C3785A95E96C4034EB5FD235B15 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CTMediator;
-			productName = CTMediator;
-			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */;
-			productType = "com.apple.product-type.framework";
-		};
-		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3EF7FDC1968BC4164483BA34A4761B41 /* Build configuration list for PBXNativeTarget "YYModel" */;
-			buildPhases = (
-				3C6625D5D01D3A1F303AE5AE362D2848 /* Headers */,
-				F5A4C8F21710481902AF614050C45557 /* Sources */,
-				9407E18DD349498610FF5630181529C1 /* Frameworks */,
-				CEA7D109EBC3DEE2B9845B2A1F9C0036 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYModel;
-			productName = YYModel;
-			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */;
-			productType = "com.apple.product-type.framework";
-		};
 		95390D0B48865752F1C1FA13FE1C0E9B /* FuseUI-FuseUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C70F8ADB953DEE04040DF52C5B711F42 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */;
+			buildConfigurationList = AE03C530D155B1CB9E5F878576229501 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */;
 			buildPhases = (
-				EA2262E98F52890547E8124CED5BAB16 /* Sources */,
-				AEAF74E5A4D7C00075460F2C656C50E1 /* Frameworks */,
-				A1A99971AC5554AE9D93A1E2C748FC59 /* Resources */,
+				AD6DCC290C8FB85C1AE68EBCFF638AD9 /* Sources */,
+				695497A053DC1C55998560E4307B1F93 /* Frameworks */,
+				B2E4D20BD8C4E98876585A2023E41725 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1050,21 +383,17 @@
 		};
 		A99E9AB3E2F1EA9B81EE1018FEB80518 /* Pods-FuseUI_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AE42C5D1DB8322CAEF0ECDD4159AFF4 /* Build configuration list for PBXNativeTarget "Pods-FuseUI_Example" */;
+			buildConfigurationList = 0F5DCC868EC5952515A22E7C2A02344A /* Build configuration list for PBXNativeTarget "Pods-FuseUI_Example" */;
 			buildPhases = (
-				14F95A4F991EEA07A242C8DCE73FBEF0 /* Headers */,
-				DCB019E404DF651C4867E7FFAE6E4BBB /* Sources */,
-				133EEC82CFC3C58680DCC4DFE4BA0C66 /* Frameworks */,
-				968300D50E7588CEE87A099AB1A18D98 /* Resources */,
+				99A7CE63EBA765F779704FE941DF0E12 /* Headers */,
+				173F8E31AF41E90AA180630379B6BABD /* Sources */,
+				5336DBCDC31D74E8B4F537908A5B05BE /* Frameworks */,
+				E13D3DE527871F7C30CE59EBD8D10837 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				699F240C715A6AC4EDF40564DF65C5E6 /* PBXTargetDependency */,
-				D9A273563D2D6D6B6E7230F68BEF67D7 /* PBXTargetDependency */,
-				0B3178FCD690538FF2B8E3C3E227F1FD /* PBXTargetDependency */,
-				BD0DFC97A2512F81C9FE4DD16DCA8373 /* PBXTargetDependency */,
-				0E9A667601D67D719ED5CF288D54FA10 /* PBXTargetDependency */,
+				4A7C1D557B3F694978C77B261764453A /* PBXTargetDependency */,
 			);
 			name = "Pods-FuseUI_Example";
 			productName = Pods_FuseUI_Example;
@@ -1083,47 +412,26 @@
 			buildRules = (
 			);
 			dependencies = (
-				09AD9DF78F91CE260A20AE094F686D8C /* PBXTargetDependency */,
+				9C9A9242794E678EC34DF2BCDE2ADA36 /* PBXTargetDependency */,
 			);
 			name = "Pods-FuseUI_Tests";
 			productName = Pods_FuseUI_Tests;
 			productReference = 860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB86F01C5E0EE3387A19E53575A58179 /* FuseGroupsKits */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 509385EA9E9317AE3F5D0BF9861C067B /* Build configuration list for PBXNativeTarget "FuseGroupsKits" */;
-			buildPhases = (
-				C1B434C20830675DDACD66AD84BFDB96 /* Headers */,
-				F452209B0ACC51426C471640055DC024 /* Sources */,
-				CCB9EE0282E72D49B7A504F7FECD3DC1 /* Frameworks */,
-				5CEB77CDD2EB335F86ABC75841A0DA0D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CC07DD540CAA1DAD33B47F5F95E8104 /* PBXTargetDependency */,
-				161BCCC8B1CF420D6ADEE0440D76FE84 /* PBXTargetDependency */,
-			);
-			name = FuseGroupsKits;
-			productName = FuseGroupsKits;
-			productReference = 37785A219861B949E3C2621EDF710DBF /* FuseGroupsKits */;
-			productType = "com.apple.product-type.framework";
-		};
 		EFFF18788FF2EC876A77590D7588C548 /* FuseUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1C63E3EED25865DAB74E3C8A47C8B23 /* Build configuration list for PBXNativeTarget "FuseUI" */;
+			buildConfigurationList = 387819AD1A05EEA324111980FA6D3EB5 /* Build configuration list for PBXNativeTarget "FuseUI" */;
 			buildPhases = (
-				A37BFC249219AF336172D0D5B69E28AF /* Headers */,
-				1583127C73DB68728155384145FD3226 /* Sources */,
-				1FCF3D00F075A9FC73C8A766F5C1F3F4 /* Frameworks */,
-				054EEB7EC7559B1151BECB8197E6375C /* Resources */,
+				0E0F5E4748FA7A44A94348E83E810A69 /* Headers */,
+				25C0D6A0C70088E3257F078DFDB8B76B /* Sources */,
+				C31785B835B62B39EC52E074A35493E2 /* Frameworks */,
+				18BBE4A4F2762AF329E0DC33653723CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61A66240F516ACC98D1B28B65D71B1A2 /* PBXTargetDependency */,
-				FE82593DBC0006CC1CB9444E1D5C11E0 /* PBXTargetDependency */,
+				AE1CA7AD79E987C644EA53FBC4DC092A /* PBXTargetDependency */,
 			);
 			name = FuseUI;
 			productName = FuseUI;
@@ -1148,42 +456,24 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 403A5440755A7A470BBB0E95857DA3CA /* Products */;
+			productRefGroup = 15113F3354056F8B43A3D97C8041E6F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				242FD92FD9D890381536249734A652E2 /* CTMediaKit */,
-				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
-				EB86F01C5E0EE3387A19E53575A58179 /* FuseGroupsKits */,
 				EFFF18788FF2EC876A77590D7588C548 /* FuseUI */,
 				95390D0B48865752F1C1FA13FE1C0E9B /* FuseUI-FuseUI */,
 				A99E9AB3E2F1EA9B81EE1018FEB80518 /* Pods-FuseUI_Example */,
 				DF835155B000B67416AC46ABC32BBCDE /* Pods-FuseUI_Tests */,
-				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		054EEB7EC7559B1151BECB8197E6375C /* Resources */ = {
+		18BBE4A4F2762AF329E0DC33653723CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81735508118B65B50C73AE5013E933A /* FuseUI-FuseUI in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19781C3785A95E96C4034EB5FD235B15 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C023336BE29023D779BA254D2FAFD88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				308920742B0664917FCD016E55DB1E22 /* FuseUI-FuseUI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,30 +484,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CEB77CDD2EB335F86ABC75841A0DA0D /* Resources */ = {
+		B2E4D20BD8C4E98876585A2023E41725 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C33251312C47F0828C73B2BC37CB373 /* FNAlertTipContentView.xib in Resources */,
+				6275D6BE2DFC8B1E6D3C2637A69D35B4 /* FPBottomSheetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		968300D50E7588CEE87A099AB1A18D98 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1A99971AC5554AE9D93A1E2C748FC59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0DFD50C2EB9F6F5099770C9FE60C44A /* FNAlertTipContentView.xib in Resources */,
-				33DEC3DB3ED63B2C1D2BCB611F0E397D /* FPBottomSheetCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEA7D109EBC3DEE2B9845B2A1F9C0036 /* Resources */ = {
+		E13D3DE527871F7C30CE59EBD8D10837 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1227,28 +503,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1583127C73DB68728155384145FD3226 /* Sources */ = {
+		173F8E31AF41E90AA180630379B6BABD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C664062904D2E41F86EC791A5F4200 /* FNAlertTipContentView.m in Sources */,
-				852E239E493F43B06420C1A4355F2229 /* FPBottomSheetAnimator.m in Sources */,
-				BE0CDC8EC92BA23AC33C4A6EF77FECAD /* FPBottomSheetCell.m in Sources */,
-				F86AF235E1B4144F08F0F978F452EBCC /* FPBottomSheetPicker.m in Sources */,
-				972FC13A7F172FB34421C7597FBEC3AD /* FUDatePickerView.m in Sources */,
-				B3E42F9EBBDB94D2E0E138AC6B9BE16C /* FUHotspotButton.m in Sources */,
-				513C1B9A81EB45809371FC3FEF11C56C /* FuseUI-dummy.m in Sources */,
-				F6153AD8D67CF16710627B777C70C8BE /* FUWebViewController.m in Sources */,
+				8D392E23F2252661EEA77F6EBF2400EB /* Pods-FuseUI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B115AE005CC1960BC69BF1F26009A15E /* Sources */ = {
+		25C0D6A0C70088E3257F078DFDB8B76B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B302E5C760B4210675982A8B271ABAA2 /* CTMediator.m in Sources */,
-				A3ABAC0CD854D07DBAD7F490A1621B32 /* CTMediator+HandyTools.m in Sources */,
-				C4981DDD91404CA753B04B999C8BB81B /* CTMediator-dummy.m in Sources */,
+				51B13E0E7CCF415731BA267AB3B996E0 /* FNAlertTipContentView.m in Sources */,
+				0C21C4E68870421902FA94238C3AB7A3 /* FPBottomSheetAnimator.m in Sources */,
+				1F2B695CCEDD529E68746D8F2885ADFB /* FPBottomSheetCell.m in Sources */,
+				BA423075CA12500CCEB9AE63881DF729 /* FPBottomSheetPicker.m in Sources */,
+				2E98E9A23EE6EA462F6952CA697DE2D0 /* FUDatePickerView.m in Sources */,
+				9802A3349C48A4775EEA8813F6E3FD73 /* FUHotspotButton.m in Sources */,
+				BAB23A4282EE4AFE2A3C1FFBC22453A1 /* FuseUI-dummy.m in Sources */,
+				88A5A80D05EECF12573B275C691CE162 /* FUWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6DCC290C8FB85C1AE68EBCFF638AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1260,186 +541,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB019E404DF651C4867E7FFAE6E4BBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D58E855DA77BBCD27EB9FAFF0A2F355 /* Pods-FuseUI_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA2262E98F52890547E8124CED5BAB16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F452209B0ACC51426C471640055DC024 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9C0F3132725B153C19D6241415BA4BF /* FuseGroupsKits-dummy.m in Sources */,
-				28B55202B9F0056F6FEA2FEA33062E2A /* FUSelectTextField.m in Sources */,
-				54CAA8B28C48E0D1B05E7AB941D302E4 /* FuseLoginViewController.m in Sources */,
-				CAD91ED6DDDCDD982832152D45C999DD /* JLTextContentView.m in Sources */,
-				0A2B6A55613EDEA812CB7225DEC36556 /* JLTextView.m in Sources */,
-				71AD4D470A5A712DF54B1F605AA2AAE2 /* NSArray+NullSafe.m in Sources */,
-				525C6D27BAEA298074F708A8CFF03B75 /* NSData+Base64.m in Sources */,
-				905CF7171AB0AC489BD77200E1DA95B3 /* NSDate+format.m in Sources */,
-				017E7E7FE2C42C7D83CD0F8D4962749D /* NSDate+InternetDateTime.m in Sources */,
-				065B667F0F4D5CDBD41D5B61E9C6CEE7 /* NSMutableArray+NullSafe.m in Sources */,
-				BA274F2D410C231EABB164061DDB3CC2 /* NSMutableDictionary+NullSafe.m in Sources */,
-				A43C3FD8A8420121325EB979B76EF1E8 /* NSNull+NullSafe.m in Sources */,
-				9E3074C4984185193BA4A2E3DAD12983 /* NSObject+FuEmpty.m in Sources */,
-				070E53BA6D5A50A581BB82FC3C5A3CD8 /* NSObject+NullSafe.m in Sources */,
-				CB1CA771519CAD76089241E90DF89856 /* NSObject+toModel.m in Sources */,
-				1F15DD5AA61BD2CEA434931B7A0231F6 /* Target_FuseLoginViewController.m in Sources */,
-				3D695AFB8265F9C01FD24561D57C5DF5 /* UIBarButtonItem+XJ.m in Sources */,
-				C1F1484007BE23327AE7BDEA91EB924F /* UIButton+Color.m in Sources */,
-				FF73885FD12BC49A265AF1922399ADFA /* UIColor+Hex.m in Sources */,
-				BD940E125D99E2D8EAB7700136EF13D8 /* UIImage+create.m in Sources */,
-				130752DE45F5F0D86F72294B27B78AE5 /* UIImage+fixOrientation.m in Sources */,
-				F93A440F5AAA431BA1FFAB3923AFECF3 /* UIImage+Luban_iOS_Extension_h.m in Sources */,
-				0023CDF4616A89B57B086029965126EA /* UIImage+rotation.m in Sources */,
-				300287EE95B5C535855AF99056234324 /* UILabel+OptionalText.m in Sources */,
-				1B5DDA123705E292F6E83BD8542169F2 /* UIScrollView+ResignFirstResponder.m in Sources */,
-				D5445EE074280BFDCEF941E05BB9A290 /* UIScrollView+touch.m in Sources */,
-				3B7543B1559E3B6F9D69EB0DBA0D040B /* UITableView+Tap.m in Sources */,
-				65EB3BC1C236FE9FA1F611DB3BB32409 /* UITableViewCell+reuse.m in Sources */,
-				26C786E36E05795B51520C0EF39BB43B /* UITextView+Placeholder.m in Sources */,
-				D0200A3E8688011CFA86C8FF0D33B8C1 /* UIView+IB.m in Sources */,
-				8A6B72D09A2DFA2C6036B42CDDF0B7AC /* UIView+load.m in Sources */,
-				3F676E2C1FE4DCE964DB97ABEAEF3BDA /* UIView+radius.m in Sources */,
-				66ED2E2CE639BC0A61AA963F8AD829AB /* UIView+XJ.m in Sources */,
-				BE3214435E5EDADD417F8DAB9C08AFFF /* UIViewController+Insert.m in Sources */,
-				772C19AE4ACF758F257AC4459F4EC386 /* UIViewController+KSGuid.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5A4C8F21710481902AF614050C45557 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04364A349CF46A863DD3C159E91057E6 /* NSObject+YYModel.m in Sources */,
-				611AF67FB0EDA2B75C88D400526F402F /* YYClassInfo.m in Sources */,
-				A3E6914C27F7D131C32CD19D213B8B7C /* YYModel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7CD50EF2F8A2D8769FF5CE5E7A16321 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76F821D11935424380A95022B36EE79F /* CTMediaKit-dummy.m in Sources */,
-				AB6293A5D3BB456D540321379CC11CB1 /* CTMediator+UserInfo.m in Sources */,
-				5F4374E913089DD525BB981F5EA3509C /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09AD9DF78F91CE260A20AE094F686D8C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FuseUI_Example";
-			target = A99E9AB3E2F1EA9B81EE1018FEB80518 /* Pods-FuseUI_Example */;
-			targetProxy = 652B1959229ABFEB347B3D52054FC985 /* PBXContainerItemProxy */;
-		};
-		0B3178FCD690538FF2B8E3C3E227F1FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FuseGroupsKits;
-			target = EB86F01C5E0EE3387A19E53575A58179 /* FuseGroupsKits */;
-			targetProxy = 548AB38AAD499AAEBDB18C6886DB0032 /* PBXContainerItemProxy */;
-		};
-		0CC07DD540CAA1DAD33B47F5F95E8104 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediaKit;
-			target = 242FD92FD9D890381536249734A652E2 /* CTMediaKit */;
-			targetProxy = 01A4DDE6D7160DA5DAD443A1CD77A97E /* PBXContainerItemProxy */;
-		};
-		0E9A667601D67D719ED5CF288D54FA10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 73D893AC0F84D522A61F70D4FF462DDE /* PBXContainerItemProxy */;
-		};
-		161BCCC8B1CF420D6ADEE0440D76FE84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 0D40EE838CBCB571DA381C6BA9C73ECE /* PBXContainerItemProxy */;
-		};
-		54F4D6F8AD84304D535847E58BDE672A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 792FBD585FF4A195C2C3C6AEBD328F66 /* PBXContainerItemProxy */;
-		};
-		61A66240F516ACC98D1B28B65D71B1A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FuseGroupsKits;
-			target = EB86F01C5E0EE3387A19E53575A58179 /* FuseGroupsKits */;
-			targetProxy = 853942827FA83078676A7F29B711E58C /* PBXContainerItemProxy */;
-		};
-		699F240C715A6AC4EDF40564DF65C5E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediaKit;
-			target = 242FD92FD9D890381536249734A652E2 /* CTMediaKit */;
-			targetProxy = 84BACC6F36DE275214687804C635D02A /* PBXContainerItemProxy */;
-		};
-		BD0DFC97A2512F81C9FE4DD16DCA8373 /* PBXTargetDependency */ = {
+		4A7C1D557B3F694978C77B261764453A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FuseUI;
 			target = EFFF18788FF2EC876A77590D7588C548 /* FuseUI */;
-			targetProxy = 932F6132D9917552486DA6FB4C05D112 /* PBXContainerItemProxy */;
+			targetProxy = 01C63ED40A2DEE37F36D1134B2A56240 /* PBXContainerItemProxy */;
 		};
-		D9A273563D2D6D6B6E7230F68BEF67D7 /* PBXTargetDependency */ = {
+		9C9A9242794E678EC34DF2BCDE2ADA36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 3C1C62FB205D170886A9A81D294C5786 /* PBXContainerItemProxy */;
+			name = "Pods-FuseUI_Example";
+			target = A99E9AB3E2F1EA9B81EE1018FEB80518 /* Pods-FuseUI_Example */;
+			targetProxy = AC389CAF79377B62B2A882E8A300A007 /* PBXContainerItemProxy */;
 		};
-		FE82593DBC0006CC1CB9444E1D5C11E0 /* PBXTargetDependency */ = {
+		AE1CA7AD79E987C644EA53FBC4DC092A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FuseUI-FuseUI";
 			target = 95390D0B48865752F1C1FA13FE1C0E9B /* FuseUI-FuseUI */;
-			targetProxy = BED40E0B551176828759A15AEBD5B471 /* PBXContainerItemProxy */;
+			targetProxy = 9DD4EA62C5B5E18CFEED58137E22C706 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B4221439C9D0315A50D153DFE9CBABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7593D44E421D1C560B165A35EC3700C9 /* CTMediaKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediaKit/CTMediaKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediaKit/CTMediaKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediaKit/CTMediaKit.modulemap";
-				PRODUCT_MODULE_NAME = CTMediaKit;
-				PRODUCT_NAME = CTMediaKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1506,38 +631,7 @@
 			};
 			name = Debug;
 		};
-		2894D4E398C201CE64903B815DABDF9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC5771AED519D7279C8A29A8710FB62D /* YYModel.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3CB53027AE5EAE1395B06E26643F828D /* Release */ = {
+		292524A79DC0336664E9F1A057CE0574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94C01C5245718FDDC35CEE0B0CC0DBA3 /* Pods-FuseUI_Example.release.xcconfig */;
 			buildSettings = {
@@ -1570,67 +664,21 @@
 			};
 			name = Release;
 		};
-		45E884D7E2CB7335AD401EE948B09295 /* Debug */ = {
+		4D13D433FAD0EF3F1966ADC9E741D3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED5CF97D15077192D16DBB6DF9DDC12 /* CTMediator.debug.xcconfig */;
+			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4E2EFDC0462DCCE1A18E630D2681E5FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F80C29ABDB38AB38A5E4F4C6721B4E /* Pods-FuseUI_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FuseUI_Example/Pods-FuseUI_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
+				IBSC_MODULE = FuseUI;
+				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FuseUI_Example/Pods-FuseUI_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = FuseUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		5EBA7EF4DDBDE3C724BEC2BCD9635A45 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1665,44 +713,28 @@
 			};
 			name = Release;
 		};
-		62D83E3AFA91BB88753F2C5F3152FF80 /* Release */ = {
+		6005BCDA5484BBCB01C3ADD87424A362 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
-				IBSC_MODULE = FuseUI;
-				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
+				PRODUCT_MODULE_NAME = FuseUI;
 				PRODUCT_NAME = FuseUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		79F84A72A0B4D4289A618A5D7CE45B58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 152D90A2F0E20E54B4B19F3D90AB5E90 /* CTMediator.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1712,38 +744,7 @@
 			};
 			name = Release;
 		};
-		A2B9DC85BB9C35AB2C67B741B785BBCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D034AF7C0729E12C0F1A7ACA9286F130 /* FuseGroupsKits.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FuseGroupsKits/FuseGroupsKits-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FuseGroupsKits/FuseGroupsKits-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FuseGroupsKits/FuseGroupsKits.modulemap";
-				PRODUCT_MODULE_NAME = FuseGroupsKits;
-				PRODUCT_NAME = FuseGroupsKits;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4B0BAAB10693873316CABC44712D87D /* Debug */ = {
+		8C2B208755BDE83F0D4D534347EF0E3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
 			buildSettings = {
@@ -1763,127 +764,6 @@
 				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
 				PRODUCT_MODULE_NAME = FuseUI;
 				PRODUCT_NAME = FuseUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A98BD0EFCBB8965C2FE0F2AF1503D4B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
-				PRODUCT_MODULE_NAME = FuseUI;
-				PRODUCT_NAME = FuseUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA93B63DA6E1FA4AB37FA61DF6286C3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE3287296D4489D6852A853D357FF88C /* YYModel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BD74BED29D46EED34ECC6D7C65ED3225 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18208B26B118904B3C9945A2C31C10A5 /* FuseGroupsKits.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FuseGroupsKits/FuseGroupsKits-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FuseGroupsKits/FuseGroupsKits-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FuseGroupsKits/FuseGroupsKits.modulemap";
-				PRODUCT_MODULE_NAME = FuseGroupsKits;
-				PRODUCT_NAME = FuseGroupsKits;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C742BC838C6033A18ADFC25802FB897C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD2F2A2C385A2D3304356B9DF7CF7E90 /* CTMediaKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediaKit/CTMediaKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediaKit/CTMediaKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediaKit/CTMediaKit.modulemap";
-				PRODUCT_MODULE_NAME = CTMediaKit;
-				PRODUCT_NAME = CTMediaKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1956,7 +836,39 @@
 			};
 			name = Release;
 		};
-		D2C0EA6B595DB8DAC901CE2AE877F139 /* Debug */ = {
+		CF6CA595EA19A1084332E985E0EF0522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F80C29ABDB38AB38A5E4F4C6721B4E /* Pods-FuseUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuseUI_Example/Pods-FuseUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuseUI_Example/Pods-FuseUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC527EB270BB095D17CB9F554A1246A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
 			buildSettings = {
@@ -2007,29 +919,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00408E4DA015DA1B5337370864A11756 /* Build configuration list for PBXNativeTarget "CTMediaKit" */ = {
+		0F5DCC868EC5952515A22E7C2A02344A /* Build configuration list for PBXNativeTarget "Pods-FuseUI_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C742BC838C6033A18ADFC25802FB897C /* Debug */,
-				1B4221439C9D0315A50D153DFE9CBABB /* Release */,
+				CF6CA595EA19A1084332E985E0EF0522 /* Debug */,
+				292524A79DC0336664E9F1A057CE0574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AE42C5D1DB8322CAEF0ECDD4159AFF4 /* Build configuration list for PBXNativeTarget "Pods-FuseUI_Example" */ = {
+		387819AD1A05EEA324111980FA6D3EB5 /* Build configuration list for PBXNativeTarget "FuseUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E2EFDC0462DCCE1A18E630D2681E5FB /* Debug */,
-				3CB53027AE5EAE1395B06E26643F828D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3EF7FDC1968BC4164483BA34A4761B41 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA93B63DA6E1FA4AB37FA61DF6286C3F /* Debug */,
-				2894D4E398C201CE64903B815DABDF9F /* Release */,
+				8C2B208755BDE83F0D4D534347EF0E3F /* Debug */,
+				6005BCDA5484BBCB01C3ADD87424A362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2043,20 +946,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509385EA9E9317AE3F5D0BF9861C067B /* Build configuration list for PBXNativeTarget "FuseGroupsKits" */ = {
+		AE03C530D155B1CB9E5F878576229501 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD74BED29D46EED34ECC6D7C65ED3225 /* Debug */,
-				A2B9DC85BB9C35AB2C67B741B785BBCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC15AAA709E4A0C81AFB046E924F540F /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45E884D7E2CB7335AD401EE948B09295 /* Debug */,
-				79F84A72A0B4D4289A618A5D7CE45B58 /* Release */,
+				EC527EB270BB095D17CB9F554A1246A6 /* Debug */,
+				4D13D433FAD0EF3F1966ADC9E741D3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2066,24 +960,6 @@
 			buildConfigurations = (
 				FC576A4F1458A7FD600FC3B3B6D09109 /* Debug */,
 				5EBA7EF4DDBDE3C724BEC2BCD9635A45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C70F8ADB953DEE04040DF52C5B711F42 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2C0EA6B595DB8DAC901CE2AE877F139 /* Debug */,
-				62D83E3AFA91BB88753F2C5F3152FF80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1C63E3EED25865DAB74E3C8A47C8B23 /* Build configuration list for PBXNativeTarget "FuseUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4B0BAAB10693873316CABC44712D87D /* Debug */,
-				A98BD0EFCBB8965C2FE0F2AF1503D4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

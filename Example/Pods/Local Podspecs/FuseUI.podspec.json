@@ -23,11 +23,6 @@
       "FuseUI/Assets/*.xib"
     ]
   },
-  "dependencies": {
-    "FuseGroupsKits": [
-      "1.0.5"
-    ]
-  },
   "subspecs": [
     {
       "name": "AlertContentView",

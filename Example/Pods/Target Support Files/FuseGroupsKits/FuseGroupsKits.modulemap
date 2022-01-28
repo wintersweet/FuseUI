@@ -1,6 +1,0 @@
-framework module FuseGroupsKits {
-  umbrella header "FuseGroupsKits-umbrella.h"
-
-  export *
-  module * { export * }
-}
