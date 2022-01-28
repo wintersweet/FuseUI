@@ -7,124 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00824A556BFBD6885AFCA63126072DE6 /* FPBottomSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C21C4E68870421902FA94238C3AB7A3 /* FPBottomSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */; };
-		13E8B0DB30FEA4B3AA357629A94129B0 /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4E1756CA2028D9E76DD4AC3643228E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1C33251312C47F0828C73B2BC37CB373 /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */; };
-		1F2B695CCEDD529E68746D8F2885ADFB /* FPBottomSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */; };
-		2E98E9A23EE6EA462F6952CA697DE2D0 /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */; };
-		308920742B0664917FCD016E55DB1E22 /* FuseUI-FuseUI in Resources */ = {isa = PBXBuildFile; fileRef = 291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */; };
-		51B13E0E7CCF415731BA267AB3B996E0 /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */; };
-		6275D6BE2DFC8B1E6D3C2637A69D35B4 /* FPBottomSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */; };
+		0B185A67DF3585F612C269E137C33BB8 /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE6D5E1D407DA7EC55F34266C27A59 /* FUHotspotButton.m */; };
+		2E1F6CAF359ABEC4C7D970D4F6567DA8 /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7344D42B532FE10F0C983384256A5E58 /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA8986648D4F6DF10D3503233D4592C /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E783594562DA87D45E87FA1F42B2BB /* FNAlertTipContentView.m */; };
+		3F0B18C564541A90AA7FBCA32DD01C58 /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40504DEB3869C19BC41BA4E9528A1754 /* FNAlertTipContentView.xib */; };
 		68CEFA5A0110AD8DECBAF65BE3A87F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		796B3624D1D4B4E34FF41C6F444DBD62 /* FPBottomSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		861025E97F703D32B2F57BCD06758900 /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88A5A80D05EECF12573B275C691CE162 /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */; };
+		7B29787ADB26657BEC1F2295F595E24D /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0761AC7F793D222F097A6C2985AE4B3D /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D392E23F2252661EEA77F6EBF2400EB /* Pods-FuseUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */; };
-		9802A3349C48A4775EEA8813F6E3FD73 /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */; };
-		A857BA5725117EB9287FF591FAB00014 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA423075CA12500CCEB9AE63881DF729 /* FPBottomSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */; };
-		BAB23A4282EE4AFE2A3C1FFBC22453A1 /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */; };
+		946764DA3E2C216A721A3F8337A2DA6C /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BDFFEF490B58FEE526B083E766084B /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E50D889767BCE7B56F77DEAE71D411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A9FEFC849258293CB80E19496B003BBD /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4FE2FC6DBD1E97381B4872CD6E55D2 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF581AC8D72439FF2247C8A9D0D2EA59 /* Pods-FuseUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C035F5DDC2EC227164A303D137E159A7 /* FPBottomSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2680C736F7F581B01C2D05BAA87BC0E /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D15082442CC98556D5F228B7A8CEFD2F /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB76912459FC01E1506D16F3DE215DC9 /* FUDatePickerView.m */; };
+		DBE1CDD8AEA25D2F602CD4C91CE6478F /* FuseUI-FuseUI in Resources */ = {isa = PBXBuildFile; fileRef = 291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */; };
+		DFFCC508ED4F0832EAE4A52AD4CB47BD /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DA3936885C2686E420BB54BB44389 /* FuseUI-dummy.m */; };
 		E2E26DACBB7B451A41594A98134526F3 /* Pods-FuseUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */; };
+		E3D4F10D55A1121CD516046E057DE2C0 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA416DAD6FB05994F518DFE2F279E3F9 /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB3A99A654F7A0723FBD8169C33E6FB2 /* Pods-FuseUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF0C8BC19055F89E9D9E9CA26999188B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F87A55EB77F75C22031D894733EF64C6 /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF97FE374C8F97A34C3C8333F8DD6F69 /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62614F14FB800967952B880FC42ABA6 /* FUWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01C63ED40A2DEE37F36D1134B2A56240 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EFFF18788FF2EC876A77590D7588C548;
-			remoteInfo = FuseUI;
-		};
-		9DD4EA62C5B5E18CFEED58137E22C706 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95390D0B48865752F1C1FA13FE1C0E9B;
-			remoteInfo = "FuseUI-FuseUI";
-		};
-		AC389CAF79377B62B2A882E8A300A007 /* PBXContainerItemProxy */ = {
+		1DFDB94D68F83B1E2A961E4188D4FF53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A99E9AB3E2F1EA9B81EE1018FEB80518;
 			remoteInfo = "Pods-FuseUI_Example";
 		};
+		4BC2C64C4A6FB18835A2B08F01DDCE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95390D0B48865752F1C1FA13FE1C0E9B;
+			remoteInfo = "FuseUI-FuseUI";
+		};
+		ABA862B19803B86C5B33CE383CE3C492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFF18788FF2EC876A77590D7588C548;
+			remoteInfo = FuseUI;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0761AC7F793D222F097A6C2985AE4B3D /* FUHotspotButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHotspotButton.h; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.h; sourceTree = "<group>"; };
+		07A39B086A1C0CAB423A92EDA1D459EA /* FuseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.debug.xcconfig; sourceTree = "<group>"; };
+		0C692D74B102C583318325BAE624CDB3 /* FuseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.release.xcconfig; sourceTree = "<group>"; };
+		18C73BE05D89754CAF97849846D92AF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28F80C29ABDB38AB38A5E4F4C6721B4E /* Pods-FuseUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FuseUI-FuseUI"; path = FuseUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetCell.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.m; sourceTree = "<group>"; };
+		2CFE6D5E1D407DA7EC55F34266C27A59 /* FUHotspotButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUHotspotButton.m; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.m; sourceTree = "<group>"; };
 		3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		339F0DAB610810895A1CFEDD3FA1FB8E /* ResourceBundle-FuseUI-FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FuseUI-FuseUI-Info.plist"; sourceTree = "<group>"; };
-		38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetCell.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.h; sourceTree = "<group>"; };
-		3B50AE7777CE1348C2C4C07B2BB0CDD2 /* FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseUI-Info.plist"; sourceTree = "<group>"; };
-		5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHotspotButton.h; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.h; sourceTree = "<group>"; };
-		5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUWebViewController.m; path = FuseUI/Classes/FUWebController/FUWebViewController.m; sourceTree = "<group>"; };
-		5E464D9AA8EE559FCE4010AA32D6E506 /* FuseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseUI.modulemap; sourceTree = "<group>"; };
-		5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetAnimator.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.h; sourceTree = "<group>"; };
-		6498326A4E3B58FDA725CA1FB0E96BAD /* FuseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FuseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E717106785D98862E61F7C698673756 /* FuseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FuseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F7DA3936885C2686E420BB54BB44389 /* FuseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseUI-dummy.m"; sourceTree = "<group>"; };
+		40504DEB3869C19BC41BA4E9528A1754 /* FNAlertTipContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FNAlertTipContentView.xib; path = FuseUI/Assets/FNAlertTipContentView.xib; sourceTree = "<group>"; };
+		500B2F8CB6B52AA94A2CD568544F36DF /* FuseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseUI.modulemap; sourceTree = "<group>"; };
+		5F9A4625505978C07AF21FCEA11E44F2 /* FuseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-prefix.pch"; sourceTree = "<group>"; };
 		66CD28E68AE24C421DA9B0297F4B802E /* Pods-FuseUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-Info.plist"; sourceTree = "<group>"; };
-		719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUHotspotButton.m; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.m; sourceTree = "<group>"; };
+		72BDFFEF490B58FEE526B083E766084B /* FNAlertTipContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNAlertTipContentView.h; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73417DEAF37BF777E3118BFEF5D406CD /* Pods-FuseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7344D42B532FE10F0C983384256A5E58 /* FUWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUWebViewController.h; path = FuseUI/Classes/FUWebController/FUWebViewController.h; sourceTree = "<group>"; };
+		7807706B1B3A5CADAA44D4ECF6C5DD1E /* ResourceBundle-FuseUI-FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FuseUI-FuseUI-Info.plist"; sourceTree = "<group>"; };
 		78FE45D863D1098885F9EF6983439713 /* Pods-FuseUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuseUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B9F879DEDB48934EB00B48FA950C7DD /* Pods-FuseUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EFC468E6E6CC0425D1F07E952BAC293 /* Pods-FuseUI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Example"; path = Pods_FuseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Tests"; path = Pods_FuseUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD6339E7860599D968F6A409C41D4F0 /* FuseUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseUI; path = FuseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNAlertTipContentView.h; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.h; sourceTree = "<group>"; };
-		8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.debug.xcconfig; sourceTree = "<group>"; };
 		94C01C5245718FDDC35CEE0B0CC0DBA3 /* Pods-FuseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNAlertTipContentView.m; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.m; sourceTree = "<group>"; };
-		9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FNAlertTipContentView.xib; path = FuseUI/Assets/FNAlertTipContentView.xib; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97E783594562DA87D45E87FA1F42B2BB /* FNAlertTipContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNAlertTipContentView.m; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A497FF83150FC702D5831F12E9501852 /* Pods-FuseUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A646202B61D6959F044BAAA20498C098 /* Pods-FuseUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseUI_Tests.modulemap"; sourceTree = "<group>"; };
+		AABCA75AA645B727E622267DF5D16455 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB4FE2FC6DBD1E97381B4872CD6E55D2 /* FuseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-umbrella.h"; sourceTree = "<group>"; };
 		ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Example-dummy.m"; sourceTree = "<group>"; };
-		B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPBottomSheetCell.xib; path = FuseUI/Assets/FPBottomSheetCell.xib; sourceTree = "<group>"; };
-		B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetPicker.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.h; sourceTree = "<group>"; };
 		B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetPicker.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.m; sourceTree = "<group>"; };
-		BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDatePickerView.h; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.h; sourceTree = "<group>"; };
 		C5A871C24781BE861AAAE824ED6E66F0 /* Pods-FuseUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUWebViewController.h; path = FuseUI/Classes/FUWebController/FUWebViewController.h; sourceTree = "<group>"; };
-		CE7EF7475C0DBD09E42C6AFF9A23E7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CF22E13268F67ADEF307709276D8CA5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D32349E978856A56BC5DF238566ECD87 /* FuseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-prefix.pch"; sourceTree = "<group>"; };
+		C62614F14FB800967952B880FC42ABA6 /* FUWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUWebViewController.m; path = FuseUI/Classes/FUWebController/FUWebViewController.m; sourceTree = "<group>"; };
+		CA416DAD6FB05994F518DFE2F279E3F9 /* FUDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDatePickerView.h; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.h; sourceTree = "<group>"; };
+		CB76912459FC01E1506D16F3DE215DC9 /* FUDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUDatePickerView.m; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.m; sourceTree = "<group>"; };
 		D3253C582B4F15DECFAAFDB2D10E7080 /* Pods-FuseUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.release.xcconfig; sourceTree = "<group>"; };
 		E38F1B6E13FD8E26B5B809DC67AC431C /* Pods-FuseUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseUI-dummy.m"; sourceTree = "<group>"; };
-		E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetAnimator.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.m; sourceTree = "<group>"; };
-		E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUDatePickerView.m; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.m; sourceTree = "<group>"; };
-		EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-umbrella.h"; sourceTree = "<group>"; };
+		F62E6FBEEDBB273E25743DA7FAE96E0D /* FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseUI-Info.plist"; sourceTree = "<group>"; };
 		F986A3F3D2DA1F53AC13B07E291CC895 /* Pods-FuseUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseUI_Example.modulemap"; sourceTree = "<group>"; };
 		FCDE4A6D96BDBD04967099E2AB2B7FA7 /* Pods-FuseUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A18C481EE6A42EDB8C836CACA702A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5336DBCDC31D74E8B4F537908A5B05BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68CEFA5A0110AD8DECBAF65BE3A87F03 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		695497A053DC1C55998560E4307B1F93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,11 +122,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31785B835B62B39EC52E074A35493E2 /* Frameworks */ = {
+		AD671A93CA55AD726FE6FEC02AB8FD21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4E1756CA2028D9E76DD4AC3643228E /* Foundation.framework in Frameworks */,
+				A1E50D889767BCE7B56F77DEAE71D411 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +142,6 @@
 				860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1C9C06F3193DCBB859FC9055F4F01302 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD1E9AA856D74D81D064AE92E80F9468 /* FuseUI */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		403C7136A8FA9B2F7D3A83E64D9D037E /* Pods-FuseUI_Example */ = {
@@ -191,22 +169,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6B6028EB6F47B6057E328D4785BE1B58 /* FUWebController */ = {
+		61211349E19904C7173B3415538CE291 /* FUWebController */ = {
 			isa = PBXGroup;
 			children = (
-				CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */,
-				5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */,
+				7344D42B532FE10F0C983384256A5E58 /* FUWebViewController.h */,
+				C62614F14FB800967952B880FC42ABA6 /* FUWebViewController.m */,
 			);
 			name = FUWebController;
 			sourceTree = "<group>";
 		};
-		6F550352EA65DAFC05966A5FEA751E43 /* FUDatePicker */ = {
+		6A12526B631ECA347B39872EB743B594 /* FUHotspotButton */ = {
 			isa = PBXGroup;
 			children = (
-				BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */,
-				E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */,
+				0761AC7F793D222F097A6C2985AE4B3D /* FUHotspotButton.h */,
+				2CFE6D5E1D407DA7EC55F34266C27A59 /* FUHotspotButton.m */,
 			);
-			name = FUDatePicker;
+			name = FUHotspotButton;
+			sourceTree = "<group>";
+		};
+		6BA1687E3EF23821803C2D5474F11B5B /* FuseUI */ = {
+			isa = PBXGroup;
+			children = (
+				40504DEB3869C19BC41BA4E9528A1754 /* FNAlertTipContentView.xib */,
+				7CEA7706D6E5141565B11EDF1F9D059F /* AlertContentView */,
+				B1BC702493A55D6714A5407B11816F1A /* FUDatePicker */,
+				6A12526B631ECA347B39872EB743B594 /* FUHotspotButton */,
+				61211349E19904C7173B3415538CE291 /* FUWebController */,
+				994DCD2F64D2C293A5CAC24886FAB700 /* Pod */,
+				B4003444270FEB07BC2A9D57C5040C98 /* Support Files */,
+			);
+			name = FuseUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7CEA7706D6E5141565B11EDF1F9D059F /* AlertContentView */ = {
+			isa = PBXGroup;
+			children = (
+				72BDFFEF490B58FEE526B083E766084B /* FNAlertTipContentView.h */,
+				97E783594562DA87D45E87FA1F42B2BB /* FNAlertTipContentView.m */,
+			);
+			name = AlertContentView;
 			sourceTree = "<group>";
 		};
 		89E4DBFD374E5379E6BF887042C3D695 /* Targets Support Files */ = {
@@ -218,63 +220,54 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9D813FFF3F15368E656F64FE3BC45DC6 /* Pod */ = {
+		994DCD2F64D2C293A5CAC24886FAB700 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6498326A4E3B58FDA725CA1FB0E96BAD /* FuseUI.podspec */,
-				CE7EF7475C0DBD09E42C6AFF9A23E7FB /* LICENSE */,
-				CF22E13268F67ADEF307709276D8CA5A /* README.md */,
+				3E717106785D98862E61F7C698673756 /* FuseUI.podspec */,
+				18C73BE05D89754CAF97849846D92AF1 /* LICENSE */,
+				AABCA75AA645B727E622267DF5D16455 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AB0CEDFDA7CB8786C7CE6ED4E204CD95 /* Support Files */ = {
+		B1BC702493A55D6714A5407B11816F1A /* FUDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				5E464D9AA8EE559FCE4010AA32D6E506 /* FuseUI.modulemap */,
-				E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */,
-				3B50AE7777CE1348C2C4C07B2BB0CDD2 /* FuseUI-Info.plist */,
-				D32349E978856A56BC5DF238566ECD87 /* FuseUI-prefix.pch */,
-				EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */,
-				8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */,
-				DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */,
-				339F0DAB610810895A1CFEDD3FA1FB8E /* ResourceBundle-FuseUI-FuseUI-Info.plist */,
+				CA416DAD6FB05994F518DFE2F279E3F9 /* FUDatePickerView.h */,
+				CB76912459FC01E1506D16F3DE215DC9 /* FUDatePickerView.m */,
+			);
+			name = FUDatePicker;
+			sourceTree = "<group>";
+		};
+		B2C1B56F448D196020BDFD4E9E28B466 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA1687E3EF23821803C2D5474F11B5B /* FuseUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B4003444270FEB07BC2A9D57C5040C98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				500B2F8CB6B52AA94A2CD568544F36DF /* FuseUI.modulemap */,
+				3F7DA3936885C2686E420BB54BB44389 /* FuseUI-dummy.m */,
+				F62E6FBEEDBB273E25743DA7FAE96E0D /* FuseUI-Info.plist */,
+				5F9A4625505978C07AF21FCEA11E44F2 /* FuseUI-prefix.pch */,
+				AB4FE2FC6DBD1E97381B4872CD6E55D2 /* FuseUI-umbrella.h */,
+				07A39B086A1C0CAB423A92EDA1D459EA /* FuseUI.debug.xcconfig */,
+				0C692D74B102C583318325BAE624CDB3 /* FuseUI.release.xcconfig */,
+				7807706B1B3A5CADAA44D4ECF6C5DD1E /* ResourceBundle-FuseUI-FuseUI-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FuseUI";
-			sourceTree = "<group>";
-		};
-		B94CB82DD76144D27DD84E69D6D531B0 /* AlertContentView */ = {
-			isa = PBXGroup;
-			children = (
-				8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */,
-				96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */,
-			);
-			name = AlertContentView;
-			sourceTree = "<group>";
-		};
-		BD1E9AA856D74D81D064AE92E80F9468 /* FuseUI */ = {
-			isa = PBXGroup;
-			children = (
-				9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */,
-				B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */,
-				B94CB82DD76144D27DD84E69D6D531B0 /* AlertContentView */,
-				F703C816640A5AD978D470E83A7B02D7 /* FPBottomSheetPicker */,
-				6F550352EA65DAFC05966A5FEA751E43 /* FUDatePicker */,
-				E1166E8FE6991FDC86D853C4AAE1CEF2 /* FUHotspotButton */,
-				6B6028EB6F47B6057E328D4785BE1B58 /* FUWebController */,
-				9D813FFF3F15368E656F64FE3BC45DC6 /* Pod */,
-				AB0CEDFDA7CB8786C7CE6ED4E204CD95 /* Support Files */,
-			);
-			name = FuseUI;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1C9C06F3193DCBB859FC9055F4F01302 /* Development Pods */,
+				B2C1B56F448D196020BDFD4E9E28B466 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				15113F3354056F8B43A3D97C8041E6F9 /* Products */,
 				89E4DBFD374E5379E6BF887042C3D695 /* Targets Support Files */,
@@ -287,15 +280,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E1166E8FE6991FDC86D853C4AAE1CEF2 /* FUHotspotButton */ = {
-			isa = PBXGroup;
-			children = (
-				5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */,
-				719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */,
-			);
-			name = FUHotspotButton;
 			sourceTree = "<group>";
 		};
 		E8938CF5C3ABA122A372CCC587F30669 /* Pods-FuseUI_Tests */ = {
@@ -314,37 +298,9 @@
 			path = "Target Support Files/Pods-FuseUI_Tests";
 			sourceTree = "<group>";
 		};
-		F703C816640A5AD978D470E83A7B02D7 /* FPBottomSheetPicker */ = {
-			isa = PBXGroup;
-			children = (
-				5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */,
-				E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */,
-				38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */,
-				2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */,
-				B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */,
-				BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */,
-			);
-			name = FPBottomSheetPicker;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E0F5E4748FA7A44A94348E83E810A69 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13E8B0DB30FEA4B3AA357629A94129B0 /* FNAlertTipContentView.h in Headers */,
-				796B3624D1D4B4E34FF41C6F444DBD62 /* FPBottomSheetAnimator.h in Headers */,
-				C035F5DDC2EC227164A303D137E159A7 /* FPBottomSheetCell.h in Headers */,
-				00824A556BFBD6885AFCA63126072DE6 /* FPBottomSheetPicker.h in Headers */,
-				A857BA5725117EB9287FF591FAB00014 /* FUDatePickerView.h in Headers */,
-				861025E97F703D32B2F57BCD06758900 /* FUHotspotButton.h in Headers */,
-				F87A55EB77F75C22031D894733EF64C6 /* FuseUI-umbrella.h in Headers */,
-				C2680C736F7F581B01C2D05BAA87BC0E /* FUWebViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3443359B5ACE0E840103CC34BEC6C0A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,16 +317,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA6292EB517A1C971110751625BE7B11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946764DA3E2C216A721A3F8337A2DA6C /* FNAlertTipContentView.h in Headers */,
+				E3D4F10D55A1121CD516046E057DE2C0 /* FUDatePickerView.h in Headers */,
+				7B29787ADB26657BEC1F2295F595E24D /* FUHotspotButton.h in Headers */,
+				A9FEFC849258293CB80E19496B003BBD /* FuseUI-umbrella.h in Headers */,
+				2E1F6CAF359ABEC4C7D970D4F6567DA8 /* FUWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		95390D0B48865752F1C1FA13FE1C0E9B /* FuseUI-FuseUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE03C530D155B1CB9E5F878576229501 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */;
+			buildConfigurationList = D63EBE847B81FB2784A3979F1484FB01 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */;
 			buildPhases = (
-				AD6DCC290C8FB85C1AE68EBCFF638AD9 /* Sources */,
-				695497A053DC1C55998560E4307B1F93 /* Frameworks */,
-				B2E4D20BD8C4E98876585A2023E41725 /* Resources */,
+				FF54B82E50CDA7E85A6844442B78898A /* Sources */,
+				3A18C481EE6A42EDB8C836CACA702A80 /* Frameworks */,
+				3E09D2CF90B3B3C01F9D8831AF0578C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -393,7 +361,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4A7C1D557B3F694978C77B261764453A /* PBXTargetDependency */,
+				CB48863B49A8AE2DB1F62DB99066A698 /* PBXTargetDependency */,
 			);
 			name = "Pods-FuseUI_Example";
 			productName = Pods_FuseUI_Example;
@@ -412,7 +380,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9C9A9242794E678EC34DF2BCDE2ADA36 /* PBXTargetDependency */,
+				0F49766C114C39A10CA2B87E4FAC4629 /* PBXTargetDependency */,
 			);
 			name = "Pods-FuseUI_Tests";
 			productName = Pods_FuseUI_Tests;
@@ -421,17 +389,17 @@
 		};
 		EFFF18788FF2EC876A77590D7588C548 /* FuseUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 387819AD1A05EEA324111980FA6D3EB5 /* Build configuration list for PBXNativeTarget "FuseUI" */;
+			buildConfigurationList = BA2284A7F437373E1AE5B467DE247DC4 /* Build configuration list for PBXNativeTarget "FuseUI" */;
 			buildPhases = (
-				0E0F5E4748FA7A44A94348E83E810A69 /* Headers */,
-				25C0D6A0C70088E3257F078DFDB8B76B /* Sources */,
-				C31785B835B62B39EC52E074A35493E2 /* Frameworks */,
-				18BBE4A4F2762AF329E0DC33653723CF /* Resources */,
+				FA6292EB517A1C971110751625BE7B11 /* Headers */,
+				0DCD86B3847AB436B156A3F94FBE7302 /* Sources */,
+				AD671A93CA55AD726FE6FEC02AB8FD21 /* Frameworks */,
+				2C259FC4E20EAC2428BB0769BD77AD85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE1CA7AD79E987C644EA53FBC4DC092A /* PBXTargetDependency */,
+				579F5D48E8F1C7715203D77AF3066474 /* PBXTargetDependency */,
 			);
 			name = FuseUI;
 			productName = FuseUI;
@@ -469,11 +437,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18BBE4A4F2762AF329E0DC33653723CF /* Resources */ = {
+		2C259FC4E20EAC2428BB0769BD77AD85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308920742B0664917FCD016E55DB1E22 /* FuseUI-FuseUI in Resources */,
+				DBE1CDD8AEA25D2F602CD4C91CE6478F /* FuseUI-FuseUI in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E09D2CF90B3B3C01F9D8831AF0578C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0B18C564541A90AA7FBCA32DD01C58 /* FNAlertTipContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,15 +457,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E4D20BD8C4E98876585A2023E41725 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C33251312C47F0828C73B2BC37CB373 /* FNAlertTipContentView.xib in Resources */,
-				6275D6BE2DFC8B1E6D3C2637A69D35B4 /* FPBottomSheetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,33 +470,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DCD86B3847AB436B156A3F94FBE7302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8986648D4F6DF10D3503233D4592C /* FNAlertTipContentView.m in Sources */,
+				D15082442CC98556D5F228B7A8CEFD2F /* FUDatePickerView.m in Sources */,
+				0B185A67DF3585F612C269E137C33BB8 /* FUHotspotButton.m in Sources */,
+				DFFCC508ED4F0832EAE4A52AD4CB47BD /* FuseUI-dummy.m in Sources */,
+				EF97FE374C8F97A34C3C8333F8DD6F69 /* FUWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		173F8E31AF41E90AA180630379B6BABD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D392E23F2252661EEA77F6EBF2400EB /* Pods-FuseUI_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25C0D6A0C70088E3257F078DFDB8B76B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51B13E0E7CCF415731BA267AB3B996E0 /* FNAlertTipContentView.m in Sources */,
-				0C21C4E68870421902FA94238C3AB7A3 /* FPBottomSheetAnimator.m in Sources */,
-				1F2B695CCEDD529E68746D8F2885ADFB /* FPBottomSheetCell.m in Sources */,
-				BA423075CA12500CCEB9AE63881DF729 /* FPBottomSheetPicker.m in Sources */,
-				2E98E9A23EE6EA462F6952CA697DE2D0 /* FUDatePickerView.m in Sources */,
-				9802A3349C48A4775EEA8813F6E3FD73 /* FUHotspotButton.m in Sources */,
-				BAB23A4282EE4AFE2A3C1FFBC22453A1 /* FuseUI-dummy.m in Sources */,
-				88A5A80D05EECF12573B275C691CE162 /* FUWebViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD6DCC290C8FB85C1AE68EBCFF638AD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,30 +498,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF54B82E50CDA7E85A6844442B78898A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A7C1D557B3F694978C77B261764453A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FuseUI;
-			target = EFFF18788FF2EC876A77590D7588C548 /* FuseUI */;
-			targetProxy = 01C63ED40A2DEE37F36D1134B2A56240 /* PBXContainerItemProxy */;
-		};
-		9C9A9242794E678EC34DF2BCDE2ADA36 /* PBXTargetDependency */ = {
+		0F49766C114C39A10CA2B87E4FAC4629 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FuseUI_Example";
 			target = A99E9AB3E2F1EA9B81EE1018FEB80518 /* Pods-FuseUI_Example */;
-			targetProxy = AC389CAF79377B62B2A882E8A300A007 /* PBXContainerItemProxy */;
+			targetProxy = 1DFDB94D68F83B1E2A961E4188D4FF53 /* PBXContainerItemProxy */;
 		};
-		AE1CA7AD79E987C644EA53FBC4DC092A /* PBXTargetDependency */ = {
+		579F5D48E8F1C7715203D77AF3066474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FuseUI-FuseUI";
 			target = 95390D0B48865752F1C1FA13FE1C0E9B /* FuseUI-FuseUI */;
-			targetProxy = 9DD4EA62C5B5E18CFEED58137E22C706 /* PBXContainerItemProxy */;
+			targetProxy = 4BC2C64C4A6FB18835A2B08F01DDCE77 /* PBXContainerItemProxy */;
+		};
+		CB48863B49A8AE2DB1F62DB99066A698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FuseUI;
+			target = EFFF18788FF2EC876A77590D7588C548 /* FuseUI */;
+			targetProxy = ABA862B19803B86C5B33CE383CE3C492 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		137561BB0E76C8DE55E1F884FBB414CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C692D74B102C583318325BAE624CDB3 /* FuseUI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
+				PRODUCT_MODULE_NAME = FuseUI;
+				PRODUCT_NAME = FuseUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -664,22 +659,6 @@
 			};
 			name = Release;
 		};
-		4D13D433FAD0EF3F1966ADC9E741D3A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
-				IBSC_MODULE = FuseUI;
-				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FuseUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		5EBA7EF4DDBDE3C724BEC2BCD9635A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73417DEAF37BF777E3118BFEF5D406CD /* Pods-FuseUI_Tests.release.xcconfig */;
@@ -713,66 +692,37 @@
 			};
 			name = Release;
 		};
-		6005BCDA5484BBCB01C3ADD87424A362 /* Release */ = {
+		6D050B6A8EC452DBA8E1BF156D2E265E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
+			baseConfigurationReference = 07A39B086A1C0CAB423A92EDA1D459EA /* FuseUI.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
+				IBSC_MODULE = FuseUI;
+				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
-				PRODUCT_MODULE_NAME = FuseUI;
 				PRODUCT_NAME = FuseUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C2B208755BDE83F0D4D534347EF0E3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
-				PRODUCT_MODULE_NAME = FuseUI;
-				PRODUCT_NAME = FuseUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		87DB499E26190048458D45D08C53FD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C692D74B102C583318325BAE624CDB3 /* FuseUI.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
+				IBSC_MODULE = FuseUI;
+				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FuseUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -829,8 +779,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -868,19 +817,33 @@
 			};
 			name = Debug;
 		};
-		EC527EB270BB095D17CB9F554A1246A6 /* Debug */ = {
+		F6E5976B6BE053F69BE2DA23A5ED05EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
+			baseConfigurationReference = 07A39B086A1C0CAB423A92EDA1D459EA /* FuseUI.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
-				IBSC_MODULE = FuseUI;
-				INFOPLIST_FILE = "Target Support Files/FuseUI/ResourceBundle-FuseUI-FuseUI-Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuseUI/FuseUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuseUI/FuseUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuseUI/FuseUI.modulemap";
+				PRODUCT_MODULE_NAME = FuseUI;
 				PRODUCT_NAME = FuseUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -928,15 +891,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		387819AD1A05EEA324111980FA6D3EB5 /* Build configuration list for PBXNativeTarget "FuseUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C2B208755BDE83F0D4D534347EF0E3F /* Debug */,
-				6005BCDA5484BBCB01C3ADD87424A362 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -946,20 +900,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE03C530D155B1CB9E5F878576229501 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC527EB270BB095D17CB9F554A1246A6 /* Debug */,
-				4D13D433FAD0EF3F1966ADC9E741D3A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B22AB09BA5309203DDB1F9DE765A66B9 /* Build configuration list for PBXNativeTarget "Pods-FuseUI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC576A4F1458A7FD600FC3B3B6D09109 /* Debug */,
 				5EBA7EF4DDBDE3C724BEC2BCD9635A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2284A7F437373E1AE5B467DE247DC4 /* Build configuration list for PBXNativeTarget "FuseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E5976B6BE053F69BE2DA23A5ED05EB /* Debug */,
+				137561BB0E76C8DE55E1F884FBB414CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63EBE847B81FB2784A3979F1484FB01 /* Build configuration list for PBXNativeTarget "FuseUI-FuseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D050B6A8EC452DBA8E1BF156D2E265E /* Debug */,
+				87DB499E26190048458D45D08C53FD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

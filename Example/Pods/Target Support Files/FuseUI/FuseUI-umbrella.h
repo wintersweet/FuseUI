@@ -11,9 +11,6 @@
 #endif
 
 #import "FNAlertTipContentView.h"
-#import "FPBottomSheetAnimator.h"
-#import "FPBottomSheetCell.h"
-#import "FPBottomSheetPicker.h"
 #import "FUDatePickerView.h"
 #import "FUHotspotButton.h"
 #import "FUWebViewController.h"

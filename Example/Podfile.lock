@@ -1,12 +1,10 @@
 PODS:
   - FuseUI (1.0.2):
     - FuseUI/AlertContentView (= 1.0.2)
-    - FuseUI/FPBottomSheetPicker (= 1.0.2)
     - FuseUI/FUDatePicker (= 1.0.2)
     - FuseUI/FUHotspotButton (= 1.0.2)
     - FuseUI/FUWebController (= 1.0.2)
   - FuseUI/AlertContentView (1.0.2)
-  - FuseUI/FPBottomSheetPicker (1.0.2)
   - FuseUI/FUDatePicker (1.0.2)
   - FuseUI/FUHotspotButton (1.0.2)
   - FuseUI/FUWebController (1.0.2)
@@ -19,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FuseUI: 48410c0c464011d3ba47aeb21dd0ddccefac3496
+  FuseUI: 74610dce00399b827aabbcc87ecb0118b0162310
 
 PODFILE CHECKSUM: d07939330e01561346055b6b53f3af0a791b8867
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseUI'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of FuseUI.'
 
 # This description is used to generate tags and improve search results.
@@ -49,9 +49,6 @@ TODO: Add long description of the pod here.
      end
   s.subspec 'FUWebController' do |t|
       t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
-     end
-  s.subspec 'FPBottomSheetPicker' do |t|
-      t.source_files = 'FuseUI/Classes/FPBottomSheetPicker/*.{h,m}'
      end
   
   s.resource_bundles = {

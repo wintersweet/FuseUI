@@ -39,10 +39,6 @@
     {
       "name": "FUWebController",
       "source_files": "FuseUI/Classes/FUWebController/*.{h,m}"
-    },
-    {
-      "name": "FPBottomSheetPicker",
-      "source_files": "FuseUI/Classes/FPBottomSheetPicker/*.{h,m}"
     }
   ]
 }
