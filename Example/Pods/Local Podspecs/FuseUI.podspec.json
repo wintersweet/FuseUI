@@ -1,6 +1,6 @@
 {
   "name": "FuseUI",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "A short description of FuseUI.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseUI",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseUI.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FuseUI/Classes/**/*.{h,m}",
   "resource_bundles": {
     "FuseUI": [
       "FuseUI/Assets/*.xib"
@@ -28,5 +27,27 @@
     "FuseGroupsKits": [
       "1.0.5"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "AlertContentView",
+      "source_files": "FuseUI/Classes/AlertContentView/*"
+    },
+    {
+      "name": "FUDatePicker",
+      "source_files": "FuseUI/Classes/FUDatePicker/*.{h,m}"
+    },
+    {
+      "name": "FUHotspotButton",
+      "source_files": "FuseUI/Classes/FUHotspotButton/*.{h,m}"
+    },
+    {
+      "name": "FUWebController",
+      "source_files": "FuseUI/Classes/FUWebController/*.{h,m}"
+    },
+    {
+      "name": "FPBottomSheetPicker",
+      "source_files": "FuseUI/Classes/FPBottomSheetPicker/*.{h,m}"
+    }
+  ]
 }

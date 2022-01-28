@@ -13,27 +13,22 @@
 		03A93695E542388803EA67AA14B84775 /* UIView+IB.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E602613CB017752E892F4D22286E36 /* UIView+IB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03EF2D2926F8DE7CE612B5344A0426AE /* UIScrollView+ResignFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E88803E13CA7C023C403EE7FAD96FA /* UIScrollView+ResignFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04364A349CF46A863DD3C159E91057E6 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB6ABFBDB83B44F3D8BEF63DAF0760B /* NSObject+YYModel.m */; };
-		0470812F779DB098CF309FC072D30A8C /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8423FAE0D6146177CA3A711DFE4489 /* FUHotspotButton.m */; };
 		065B667F0F4D5CDBD41D5B61E9C6CEE7 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320D5B37D79DB07C8AE3D8300F33519 /* NSMutableArray+NullSafe.m */; };
 		070E53BA6D5A50A581BB82FC3C5A3CD8 /* NSObject+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C3CCA270617D6190D1D45CA7F7399 /* NSObject+NullSafe.m */; };
 		08B96592BDCAAD095125748C26F81BE8 /* FUSelectTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5039E9B04871EB34C6490C7F3ED00D69 /* FUSelectTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A2B6A55613EDEA812CB7225DEC36556 /* JLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4B0C087340967514ACDCAEFC77C719 /* JLTextView.m */; };
 		0B44E007239DA6F1814B60D5560E211A /* JLTextContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BB86826F260BE4786D19298C12A75B /* JLTextContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BE15C378716E7CBCB7F920CF0375013 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0952B53BDC5B11E88E9064D1E13DA4 /* CoreFoundation.framework */; };
-		10E3933DD478015501EA2D4955706F39 /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9429B72B8AF4E228DB870E7FC1A8B05E /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C1E7C4A587E601E634455AACFB3772 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E09BD8347E81F3A44DA8B95FD476773 /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101925C8D7E1FA9D74909AC723EB61D5 /* FUHotspotButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12F2C0CB6E97BF8AEA2AEBCC7E7FCC80 /* NSMutableDictionary+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 31650AA24EEFEDFB9C98D7CA6624533D /* NSMutableDictionary+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		130752DE45F5F0D86F72294B27B78AE5 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6D97D25A4EB39928F7699DEAD1E0B /* UIImage+fixOrientation.m */; };
 		14BA8A9B765C6C55BC158BC3D04B4935 /* Pods-FuseUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16315554A0E73C14138E8EF111E087B5 /* UIView+XJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 12678A4B9A0A83B72B5E87BA1FDAF31A /* UIView+XJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B5DDA123705E292F6E83BD8542169F2 /* UIScrollView+ResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB32949F4ACB8856857319EFC6198A8 /* UIScrollView+ResignFirstResponder.m */; };
 		1F15DD5AA61BD2CEA434931B7A0231F6 /* Target_FuseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20673CCCB75F5B19A3065697F02F1C25 /* Target_FuseLoginViewController.m */; };
-		2147DA5097A55430932D8E32612342F3 /* FPBottomSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E422AB905578FED70881B08BE3F83F /* FPBottomSheetPicker.m */; };
 		21C27FEBEC0A212C60563BE0A489CF55 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2C8329C65693ED5BB2E28D9C42D937 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21EE62003183B72218E8467D2F67231C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BAED234D971637F97C67F9A0799273 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25C101B8610E53E99ADB268BCE758450 /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BC6F3D2FA7E4D66764FA0E7A43C1C2 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26C786E36E05795B51520C0EF39BB43B /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00282D1731DBAFC75788079D03146E56 /* UITextView+Placeholder.m */; };
-		283699F8711795E69320D0BCFCE99546 /* FPBottomSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 724DBA516474CCAD40EB4FBE51EA2961 /* FPBottomSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		286F317A069362563174FE482A35B63C /* NSNull+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E73A7FAA9894BB7E5A16BCB92E4419C /* NSNull+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28B55202B9F0056F6FEA2FEA33062E2A /* FUSelectTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A690D1CA7E3D9B01A96A3071C0720 /* FUSelectTextField.m */; };
 		290589894C09EAFB2B9AAF92968536B1 /* UILabel+OptionalText.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE2B9F81129EB966FE405EEEADF729E /* UILabel+OptionalText.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,57 +36,64 @@
 		2AABEE99970BAFA16DCBF87F9D8E0CB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F050037D329D985A641112885C3C78 /* CoreGraphics.framework */; };
 		2D58E855DA77BBCD27EB9FAFF0A2F355 /* Pods-FuseUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */; };
 		300287EE95B5C535855AF99056234324 /* UILabel+OptionalText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E645203C65952499666EB8BD8F19E23 /* UILabel+OptionalText.m */; };
-		33DEC3DB3ED63B2C1D2BCB611F0E397D /* FPBottomSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73F1D766E7DF014282C2F0DB5908483 /* FPBottomSheetCell.xib */; };
+		33DEC3DB3ED63B2C1D2BCB611F0E397D /* FPBottomSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */; };
 		38841AA4A161AC86B26BA53E9744BFF7 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 549EB764A6527EC146008A5C60AA7EA3 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B7543B1559E3B6F9D69EB0DBA0D040B /* UITableView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8320A41FB77680A5FC5AB38045AB7C /* UITableView+Tap.m */; };
 		3D695AFB8265F9C01FD24561D57C5DF5 /* UIBarButtonItem+XJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C362408BCF988D0388595BB06037396D /* UIBarButtonItem+XJ.m */; };
 		3F676E2C1FE4DCE964DB97ABEAEF3BDA /* UIView+radius.m in Sources */ = {isa = PBXBuildFile; fileRef = 605416F82F9BFD2CA78AD24F0AA2243E /* UIView+radius.m */; };
-		4636BA1258E836EE72AF8DABC85C1282 /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D7CD9DBF92853F453ED85BEBB3CF3B /* FUDatePickerView.m */; };
+		435B3FB10D4ED9734103268F070F0122 /* FPBottomSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		478FB73AA73C48838F352D7A678890B2 /* UIBarButtonItem+XJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 3105BF81A1DD940E4ED8CCB74B169D79 /* UIBarButtonItem+XJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513C1B9A81EB45809371FC3FEF11C56C /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */; };
 		525C6D27BAEA298074F708A8CFF03B75 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4C3DACD6081EDEFF255B9107AE8EF /* NSData+Base64.m */; };
-		533315E1CBA0C31FFE09F46B45042778 /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DF4DE4F34C85EA9DF53A072C6934F3 /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53C664062904D2E41F86EC791A5F4200 /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */; };
 		54CAA8B28C48E0D1B05E7AB941D302E4 /* FuseLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C410D180D2E1E77E62E51FD62F51EB /* FuseLoginViewController.m */; };
 		5DAA8F469043809DEE93E858EBD1DC99 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ACE9DBB4B7E848696DE8C05B263DAF /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F4374E913089DD525BB981F5EA3509C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2FA230DD1CB84C366370696C7BC01 /* ReplaceMe.m */; };
 		5F51E62C4B7091B60D4547E63C63A21F /* UIView+load.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F0B267A589AD7CD2BAB6F86270F85B /* UIView+load.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F86BEBD614E5D38A236A58890496C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
 		611AF67FB0EDA2B75C88D400526F402F /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0716FB3ED3BDAFEC14038ABFA1294 /* YYClassInfo.m */; };
+		655D6FF4F89BDD8853ACE1DEB403514A /* FPBottomSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65EB3BC1C236FE9FA1F611DB3BB32409 /* UITableViewCell+reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3087C66276C75BA41F0F415A99DA86C /* UITableViewCell+reuse.m */; };
 		66D568958F84A0EDE0C34A5622BE6D55 /* NSDate+format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DACB44AF88F8863673FBBB429E48B0D /* NSDate+format.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66ED2E2CE639BC0A61AA963F8AD829AB /* UIView+XJ.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9FA4A82B54EBF2EFAA3E661E1DD74 /* UIView+XJ.m */; };
-		694CDB45787A686556198C1406F68551 /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A9019DB5926FC00758CF212DB09AD2 /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A12A0F22471CCD4354121756B9FC6C4 /* NSArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B0CD81C3AF3EC144BE19A62ADDE49A /* NSArray+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A48DE14D61803294B0958CA83D889E7 /* UITableViewCell+reuse.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB235D358043D924A16764C0313D055 /* UITableViewCell+reuse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB8F995DEF68022429EFBAB749E2548 /* FUWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CE59095860F420E42FFDEF89F7A3146 /* FuseLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D5A9F4BB1BCB58E229CE2A71C6B915 /* FuseLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71AD4D470A5A712DF54B1F605AA2AAE2 /* NSArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D5490ABBF0A343A8CC61A795917DCF /* NSArray+NullSafe.m */; };
 		7309C359219500C63CBD334B692DB0F0 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27312DE3DB7803ADF2D9ABEA94988E3B /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74D19E293146E31E33718337EC3D04E0 /* UIImage+create.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FDD30354FC4B527BAFDAD336A5DC3F /* UIImage+create.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76F821D11935424380A95022B36EE79F /* CTMediaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FCD069CA7AB50A4F47C910E3B820C /* CTMediaKit-dummy.m */; };
 		772C19AE4ACF758F257AC4459F4EC386 /* UIViewController+KSGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = 428BB30C4C6E157962BD0EEC92197EC8 /* UIViewController+KSGuid.m */; };
+		77E83D17CD87D2D365AC1BE6A51EB6E7 /* FPBottomSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E042B5CA919EB70FDB3AD3BCCD85321 /* NSObject+FuEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = E478225EFAEE57305FA58E2E0FF3885D /* NSObject+FuEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		803CC6807A631D73F95031E877D2DA58 /* JLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3199A25ED01D2E55D300333FEC7BFD4E /* JLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		826CAB9567528F70790E1A6954029528 /* NSObject+toModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C95C1939DFC3B7791EA4C7B8B499D54C /* NSObject+toModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82875FFE7F26F1BD45A1DBA0C2BE6C13 /* UIView+radius.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8EABF7E8AB259FA7ADCA7DA8225ED2 /* UIView+radius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		852E239E493F43B06420C1A4355F2229 /* FPBottomSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */; };
 		8A693226F49B1FDE9B9693F83FFABF24 /* NSDate+InternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5B04EE76C8661D12E7C152CBB684E /* NSDate+InternetDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A6B72D09A2DFA2C6036B42CDDF0B7AC /* UIView+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C14785E63AACEE7048DD196A67D9EE0 /* UIView+load.m */; };
 		8B312AFB21A5C227B992159E0D0875DC /* UIViewController+KSGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A1E11245597902B9F561CFFDB12246 /* UIViewController+KSGuid.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		905CF7171AB0AC489BD77200E1DA95B3 /* NSDate+format.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC641FF22E47D8B7360200364C7280E /* NSDate+format.m */; };
 		96830FE94A7CAEF6A441DCF0191BD188 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D1E6573637E0F3663FBC5DEE83C7B4 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972FC13A7F172FB34421C7597FBEC3AD /* FUDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */; };
+		99F7762D5090355D3BF0022B09B7D3A2 /* FuseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D46FCB89E7ABB89205EC8181F484B57 /* UIViewController+Insert.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C79E7B9187762E5761547DDCDC012F /* UIViewController+Insert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E3074C4984185193BA4A2E3DAD12983 /* NSObject+FuEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4643EBF7828E5026B4C5C0C1BD9D35AC /* NSObject+FuEmpty.m */; };
 		9F70D909471F888657C877CBBFA5EF5E /* NSMutableArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = BC322A69F868D993D895D650D49204CB /* NSMutableArray+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3ABAC0CD854D07DBAD7F490A1621B32 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EC812DD35E98D9B42694695646ADCF48 /* CTMediator+HandyTools.m */; };
 		A3E6914C27F7D131C32CD19D213B8B7C /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5CA7C0E1530574E31222E74400BF6 /* YYModel-dummy.m */; };
 		A43C3FD8A8420121325EB979B76EF1E8 /* NSNull+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDD2090CB51ECC7CC7B5D424D6DA85 /* NSNull+NullSafe.m */; };
+		A4D224519E093AC2C6E0A45895F9B813 /* FUDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF106A19211D40D46FA142141EFD061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
 		AB6293A5D3BB456D540321379CC11CB1 /* CTMediator+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6162B3C947A68386E30F91FF339A1ED9 /* CTMediator+UserInfo.m */; };
-		ADF89BC4E428493F8E1143461F0F072F /* FPBottomSheetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A136E77B9F566975FDA4D15C5AB422 /* FPBottomSheetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B302E5C760B4210675982A8B271ABAA2 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B10134831C35BE49C5E35A6AA24B0D6D /* CTMediator.m */; };
+		B3E42F9EBBDB94D2E0E138AC6B9BE16C /* FUHotspotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */; };
 		B59CD0A76ABF1691513B285A68B0FA3E /* UIButton+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = BA839E38BB4FA25224D9F6836CE5D660 /* UIButton+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA274F2D410C231EABB164061DDB3CC2 /* NSMutableDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 954B86A5F6359385C5D24EACF99BFD00 /* NSMutableDictionary+NullSafe.m */; };
-		BA9FD9E9DECD2C247F14CD776D47B87A /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E680F9001658DC03C986C3CC71096FB /* FUWebViewController.m */; };
 		BB7705D56F496A55F01191C211EBCEB9 /* Target_FuseLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0805067B0C673EC7EF23D62B7055E2E /* Target_FuseLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD940E125D99E2D8EAB7700136EF13D8 /* UIImage+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997D51620A94B13250F1482320AAE9D /* UIImage+create.m */; };
+		BE0CDC8EC92BA23AC33C4A6EF77FECAD /* FPBottomSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */; };
 		BE3214435E5EDADD417F8DAB9C08AFFF /* UIViewController+Insert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A170731DF0174ACBA98D2A631824433 /* UIViewController+Insert.m */; };
 		C07A3056FDA49840C78B6D4997786FA4 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FD7A39B568456F9C7C941B6A9B05C3 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C09427FF0801EA79CEF2483FED199A91 /* UIImage+fixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DE2AEAD0BBA1B68851295580D4B3B0 /* UIImage+fixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,27 +107,25 @@
 		C9C0F3132725B153C19D6241415BA4BF /* FuseGroupsKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDC125AB8D5B1C554E15E20CA8E735 /* FuseGroupsKits-dummy.m */; };
 		CAD91ED6DDDCDD982832152D45C999DD /* JLTextContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69016ABF8148B66D1B045F760ECCFC71 /* JLTextContentView.m */; };
 		CB1CA771519CAD76089241E90DF89856 /* NSObject+toModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE50D52330BD0B4CB76F872BDAA7EF5 /* NSObject+toModel.m */; };
-		CB5D2D25F009911C8BCE96F9B74482FD /* FNAlertTipContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCECE6238AEC8B3875B1D35DD0F4C14 /* FNAlertTipContentView.m */; };
 		D0200A3E8688011CFA86C8FF0D33B8C1 /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = 766CF8AD50EB5A41C32CEAA085AF62C5 /* UIView+IB.m */; };
 		D4A4740F5746958D9D8BA92A931275CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
 		D5445EE074280BFDCEF941E05BB9A290 /* UIScrollView+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05F482CD69E8068A61CF2568840B6E /* UIScrollView+touch.m */; };
 		D5EDE04A6EB1E58E621B0B7AC1FA8ACF /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D5571CE96452B7D264DDD806C72E0D75 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E42BF71DB7257F9A9208EC4B03341F /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C40CAC8D826DF743C59B433A983399 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E26F5FA32E7997396B1EE3A75D66F034 /* FNAlertTipContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2E26DACBB7B451A41594A98134526F3 /* Pods-FuseUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */; };
 		E81735508118B65B50C73AE5013E933A /* FuseUI-FuseUI in Resources */ = {isa = PBXBuildFile; fileRef = 291563FB87476E95F167A7F6D0310555 /* FuseUI-FuseUI */; };
-		E85E7849E77BD29D033D3476FF05A7D5 /* FPBottomSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBED64BD10F79C15C6E211B9A57C5F /* FPBottomSheetCell.m */; };
 		E93AFE2F751467411A79F55DF2FF86D1 /* NSObject+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8875F2E3B5B5536AA81C19E64F7B6A09 /* NSObject+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB3A99A654F7A0723FBD8169C33E6FB2 /* Pods-FuseUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF0C8BC19055F89E9D9E9CA26999188B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
-		F0DFD50C2EB9F6F5099770C9FE60C44A /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE08F072E2006590C5A561DBDE1573C9 /* FNAlertTipContentView.xib */; };
+		F0DFD50C2EB9F6F5099770C9FE60C44A /* FNAlertTipContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */; };
 		F33CB7DA6B6E3596F70B39A6528766E0 /* CTMediaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53FBBF85BE47E6D153079189BE151CE /* CTMediaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F393861E29D59D3B3C2A46FD3C3B888A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A93D2223425DB5A2D5ECCE86C4DB99EC /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71A51ED7E50E9EA63D4089BBBBB0E55 /* FPBottomSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD54EC0542D5BA645CECABB2D41F8A2E /* FPBottomSheetAnimator.m */; };
+		F6153AD8D67CF16710627B777C70C8BE /* FUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */; };
+		F86AF235E1B4144F08F0F978F452EBCC /* FPBottomSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */; };
 		F8D2B7BF10874BD841A2B361185D3F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */; };
 		F93A440F5AAA431BA1FFAB3923AFECF3 /* UIImage+Luban_iOS_Extension_h.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD893F70B9CEB782911E9BE4D924BD8 /* UIImage+Luban_iOS_Extension_h.m */; };
 		FADE148253E22D668138F1455A621EDB /* UIScrollView+touch.h in Headers */ = {isa = PBXBuildFile; fileRef = D62C412DD3CC932DDE30AF0131666EAB /* UIScrollView+touch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2C2A3F35FE758EC4FC751EF4F8F265 /* FPBottomSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BB1D4ABE6F02868C23C43816C97C6F /* FPBottomSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEA37AA6C7415F563C2503016305294B /* FuseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BC7185E25DB72079127437553C997D /* FuseUI-dummy.m */; };
 		FF73885FD12BC49A265AF1922399ADFA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BFAB181B33C3E40942AD3F0C1FFD21 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
@@ -212,11 +212,9 @@
 /* Begin PBXFileReference section */
 		00282D1731DBAFC75788079D03146E56 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		00BB8F5822BAD3DE4F618AB936318FEE /* FuseGroupsKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseGroupsKits-umbrella.h"; sourceTree = "<group>"; };
-		0312B725F9206F57A34AAF5EC34820C4 /* FuseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.debug.xcconfig; sourceTree = "<group>"; };
 		040A690D1CA7E3D9B01A96A3071C0720 /* FUSelectTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUSelectTextField.m; path = FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/FUSelectTextField.m; sourceTree = "<group>"; };
 		07E7739BD114E3337248DDA06E159A99 /* UITableView+Tap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Tap.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableView+Tap.h"; sourceTree = "<group>"; };
 		09562F87992C90ED7DE032F9DFB69D0F /* FuseGroupsKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseGroupsKits-Info.plist"; sourceTree = "<group>"; };
-		0E09BD8347E81F3A44DA8B95FD476773 /* FUDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUDatePickerView.h; sourceTree = "<group>"; };
 		0EC4C3DACD6081EDEFF255B9107AE8EF /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSData+Base64.m"; sourceTree = "<group>"; };
 		0FA2A731F7C87EE223B02FB09B0572DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0FE2B9F81129EB966FE405EEEADF729E /* UILabel+OptionalText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+OptionalText.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UILabel+OptionalText.h"; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 		20673CCCB75F5B19A3065697F02F1C25 /* Target_FuseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_FuseLoginViewController.m; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/Target_FuseLoginViewController.m; sourceTree = "<group>"; };
 		20A0716FB3ED3BDAFEC14038ABFA1294 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		21D5A9F4BB1BCB58E229CE2A71C6B915 /* FuseLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FuseLoginViewController.h; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/FuseLoginViewController.h; sourceTree = "<group>"; };
-		2218E811463920944C626A914FBE5E3E /* FuseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FuseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2320D5B37D79DB07C8AE3D8300F33519 /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
 		27312DE3DB7803ADF2D9ABEA94988E3B /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		27C40CAC8D826DF743C59B433A983399 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
@@ -241,70 +238,71 @@
 		2BA6D97D25A4EB39928F7699DEAD1E0B /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+fixOrientation.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+fixOrientation.m"; sourceTree = "<group>"; };
 		2D85C20075C408D0F9D23584CC1A08A7 /* UIButton+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Color.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIButton+Color.m"; sourceTree = "<group>"; };
 		2E05F482CD69E8068A61CF2568840B6E /* UIScrollView+touch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+touch.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+touch.m"; sourceTree = "<group>"; };
-		2E680F9001658DC03C986C3CC71096FB /* FUWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUWebViewController.m; sourceTree = "<group>"; };
+		2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetCell.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.m; sourceTree = "<group>"; };
 		3020F4B98F9CAC47035B8392B1FC92D6 /* Pods-FuseUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		30F050037D329D985A641112885C3C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3105BF81A1DD940E4ED8CCB74B169D79 /* UIBarButtonItem+XJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+XJ.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIBarButtonItem+XJ.h"; sourceTree = "<group>"; };
 		31650AA24EEFEDFB9C98D7CA6624533D /* NSMutableDictionary+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableDictionary+NullSafe.h"; sourceTree = "<group>"; };
 		3199A25ED01D2E55D300333FEC7BFD4E /* JLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLTextView.h; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextView.h; sourceTree = "<group>"; };
 		31FD7A39B568456F9C7C941B6A9B05C3 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		35D7CD9DBF92853F453ED85BEBB3CF3B /* FUDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUDatePickerView.m; sourceTree = "<group>"; };
+		339F0DAB610810895A1CFEDD3FA1FB8E /* ResourceBundle-FuseUI-FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FuseUI-FuseUI-Info.plist"; sourceTree = "<group>"; };
 		37785A219861B949E3C2621EDF710DBF /* FuseGroupsKits */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseGroupsKits; path = FuseGroupsKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetCell.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetCell.h; sourceTree = "<group>"; };
 		39ACE9DBB4B7E848696DE8C05B263DAF /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIColor+Hex.h"; sourceTree = "<group>"; };
+		3B50AE7777CE1348C2C4C07B2BB0CDD2 /* FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseUI-Info.plist"; sourceTree = "<group>"; };
 		3DE50D52330BD0B4CB76F872BDAA7EF5 /* NSObject+toModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+toModel.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+toModel.m"; sourceTree = "<group>"; };
 		428BB30C4C6E157962BD0EEC92197EC8 /* UIViewController+KSGuid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KSGuid.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+KSGuid.m"; sourceTree = "<group>"; };
-		45BB1D4ABE6F02868C23C43816C97C6F /* FPBottomSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPBottomSheetPicker.h; sourceTree = "<group>"; };
 		4643EBF7828E5026B4C5C0C1BD9D35AC /* NSObject+FuEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FuEmpty.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+FuEmpty.m"; sourceTree = "<group>"; };
 		4A170731DF0174ACBA98D2A631824433 /* UIViewController+Insert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Insert.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+Insert.m"; sourceTree = "<group>"; };
 		5039E9B04871EB34C6490C7F3ED00D69 /* FUSelectTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSelectTextField.h; path = FuseGroupsKits/Classes/BaseComponent/FUSelectTextField/FUSelectTextField.h; sourceTree = "<group>"; };
 		520E129B48245FFD383143FE5F7AB749 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
+		5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHotspotButton.h; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.h; sourceTree = "<group>"; };
 		549EB764A6527EC146008A5C60AA7EA3 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
-		57308E21A7E1D92C9D39187AC79A2FB9 /* FuseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.release.xcconfig; sourceTree = "<group>"; };
+		5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUWebViewController.m; path = FuseUI/Classes/FUWebController/FUWebViewController.m; sourceTree = "<group>"; };
 		5C8320A41FB77680A5FC5AB38045AB7C /* UITableView+Tap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Tap.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableView+Tap.m"; sourceTree = "<group>"; };
 		5CD893F70B9CEB782911E9BE4D924BD8 /* UIImage+Luban_iOS_Extension_h.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Luban_iOS_Extension_h.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+Luban_iOS_Extension_h.m"; sourceTree = "<group>"; };
 		5DACB44AF88F8863673FBBB429E48B0D /* NSDate+format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+format.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+format.h"; sourceTree = "<group>"; };
+		5E464D9AA8EE559FCE4010AA32D6E506 /* FuseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseUI.modulemap; sourceTree = "<group>"; };
+		5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetAnimator.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.h; sourceTree = "<group>"; };
 		605416F82F9BFD2CA78AD24F0AA2243E /* UIView+radius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+radius.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+radius.m"; sourceTree = "<group>"; };
 		6162B3C947A68386E30F91FF339A1ED9 /* CTMediator+UserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+UserInfo.m"; path = "CTMediaKit/Classes/CTMediator+UserInfo.m"; sourceTree = "<group>"; };
 		640BE4367C85C678CE0E9E48FA748198 /* UIImage+rotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+rotation.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+rotation.h"; sourceTree = "<group>"; };
+		6498326A4E3B58FDA725CA1FB0E96BAD /* FuseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FuseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		66CD28E68AE24C421DA9B0297F4B802E /* Pods-FuseUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-Info.plist"; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69016ABF8148B66D1B045F760ECCFC71 /* JLTextContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLTextContentView.m; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextContentView.m; sourceTree = "<group>"; };
 		6903EE1CAD02E252821C53A2C4A32630 /* CTMediaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediaKit-prefix.pch"; sourceTree = "<group>"; };
 		6C14785E63AACEE7048DD196A67D9EE0 /* UIView+load.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+load.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+load.m"; sourceTree = "<group>"; };
-		6C2A438BF8B79FE8D0ED2ECA0ADDB7DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6CEDD2090CB51ECC7CC7B5D424D6DA85 /* NSNull+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSNull+NullSafe.m"; sourceTree = "<group>"; };
 		6DB8258289DC05C436AC926895B8AA97 /* FuseGroupsKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseGroupsKits.modulemap; sourceTree = "<group>"; };
 		6E645203C65952499666EB8BD8F19E23 /* UILabel+OptionalText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+OptionalText.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UILabel+OptionalText.m"; sourceTree = "<group>"; };
-		724DBA516474CCAD40EB4FBE51EA2961 /* FPBottomSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPBottomSheetAnimator.h; sourceTree = "<group>"; };
+		719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUHotspotButton.m; path = FuseUI/Classes/FUHotspotButton/FUHotspotButton.m; sourceTree = "<group>"; };
 		73417DEAF37BF777E3118BFEF5D406CD /* Pods-FuseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		73E5671AF59A814EA33907B2B975C9BF /* FuseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuseUI.modulemap; sourceTree = "<group>"; };
 		7593D44E421D1C560B165A35EC3700C9 /* CTMediaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediaKit.release.xcconfig; sourceTree = "<group>"; };
 		766CF8AD50EB5A41C32CEAA085AF62C5 /* UIView+IB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+IB.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+IB.m"; sourceTree = "<group>"; };
-		76DF4DE4F34C85EA9DF53A072C6934F3 /* FNAlertTipContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FNAlertTipContentView.h; sourceTree = "<group>"; };
 		78FE45D863D1098885F9EF6983439713 /* Pods-FuseUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuseUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7997D51620A94B13250F1482320AAE9D /* UIImage+create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+create.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+create.m"; sourceTree = "<group>"; };
 		7B9F879DEDB48934EB00B48FA950C7DD /* Pods-FuseUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DB6ABFBDB83B44F3D8BEF63DAF0760B /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		7EFC468E6E6CC0425D1F07E952BAC293 /* Pods-FuseUI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Example"; path = Pods_FuseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80BC7185E25DB72079127437553C997D /* FuseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseUI-dummy.m"; sourceTree = "<group>"; };
 		827588AF8F0E318EDA50F67038480A44 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
 		860C0B983DEDF0E13E88F62EF7ED85FE /* Pods-FuseUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuseUI_Tests"; path = Pods_FuseUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8875F2E3B5B5536AA81C19E64F7B6A09 /* NSObject+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSObject+NullSafe.h"; sourceTree = "<group>"; };
 		8AD6339E7860599D968F6A409C41D4F0 /* FuseUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseUI; path = FuseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFBBDA8B59671D7E526BA2AE7558C48 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		8E73A7FAA9894BB7E5A16BCB92E4419C /* NSNull+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSNull+NullSafe.h"; sourceTree = "<group>"; };
+		8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNAlertTipContentView.h; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.h; sourceTree = "<group>"; };
 		8FE5CA7C0E1530574E31222E74400BF6 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		90E422AB905578FED70881B08BE3F83F /* FPBottomSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPBottomSheetPicker.m; sourceTree = "<group>"; };
+		8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.debug.xcconfig; sourceTree = "<group>"; };
 		92BFAB181B33C3E40942AD3F0C1FFD21 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIColor+Hex.m"; sourceTree = "<group>"; };
 		92FB4B79EF8F307574D7107E74716AFF /* UIImage+rotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+rotation.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+rotation.m"; sourceTree = "<group>"; };
-		9429B72B8AF4E228DB870E7FC1A8B05E /* FUHotspotButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUHotspotButton.h; sourceTree = "<group>"; };
 		94C01C5245718FDDC35CEE0B0CC0DBA3 /* Pods-FuseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		954B86A5F6359385C5D24EACF99BFD00 /* NSMutableDictionary+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableDictionary+NullSafe.m"; sourceTree = "<group>"; };
+		96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNAlertTipContentView.m; path = FuseUI/Classes/AlertContentView/FNAlertTipContentView.m; sourceTree = "<group>"; };
 		97C79E7B9187762E5761547DDCDC012F /* UIViewController+Insert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Insert.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+Insert.h"; sourceTree = "<group>"; };
 		98B0CD81C3AF3EC144BE19A62ADDE49A /* NSArray+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSArray+NullSafe.h"; sourceTree = "<group>"; };
-		9AFBED64BD10F79C15C6E211B9A57C5F /* FPBottomSheetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPBottomSheetCell.m; sourceTree = "<group>"; };
+		9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FNAlertTipContentView.xib; path = FuseUI/Assets/FNAlertTipContentView.xib; sourceTree = "<group>"; };
 		9C4B0C087340967514ACDCAEFC77C719 /* JLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLTextView.m; path = FuseGroupsKits/Classes/BaseComponent/GrowTextView/JLTextView.m; sourceTree = "<group>"; };
-		9C7435AF181905D1CBE0EDDFDFA84FED /* FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuseUI-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D0AF7CE9A9C153960E9B3BDA014927 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		A2E88803E13CA7C023C403EE7FAD96FA /* UIScrollView+ResignFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ResignFirstResponder.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+ResignFirstResponder.h"; sourceTree = "<group>"; };
@@ -320,58 +318,60 @@
 		ABB779E5A0E2A1EBE1A17C1EFEB39CC0 /* Pods-FuseUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuseUI_Example-dummy.m"; sourceTree = "<group>"; };
 		AEA92AB3AC4B1C8140A6D3F21E65C21A /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
 		AFAEB54A8B504F23FBC3140426FDFF5D /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
-		AFCECE6238AEC8B3875B1D35DD0F4C14 /* FNAlertTipContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FNAlertTipContentView.m; sourceTree = "<group>"; };
 		AFF9FA4A82B54EBF2EFAA3E661E1DD74 /* UIView+XJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XJ.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+XJ.m"; sourceTree = "<group>"; };
+		B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPBottomSheetCell.xib; path = FuseUI/Assets/FPBottomSheetCell.xib; sourceTree = "<group>"; };
 		B10134831C35BE49C5E35A6AA24B0D6D /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPBottomSheetPicker.h; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.h; sourceTree = "<group>"; };
 		B3087C66276C75BA41F0F415A99DA86C /* UITableViewCell+reuse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+reuse.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableViewCell+reuse.m"; sourceTree = "<group>"; };
 		B86F23DC657C415909052DB256C919D1 /* Pods-FuseUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetPicker.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetPicker.m; sourceTree = "<group>"; };
 		BA839E38BB4FA25224D9F6836CE5D660 /* UIButton+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Color.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIButton+Color.h"; sourceTree = "<group>"; };
 		BC322A69F868D993D895D650D49204CB /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+NullSafe.h"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
 		BC5771AED519D7279C8A29A8710FB62D /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
 		BD2F2A2C385A2D3304356B9DF7CF7E90 /* CTMediaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediaKit.debug.xcconfig; sourceTree = "<group>"; };
+		BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDatePickerView.h; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.h; sourceTree = "<group>"; };
 		C0805067B0C673EC7EF23D62B7055E2E /* Target_FuseLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_FuseLoginViewController.h; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/Target_FuseLoginViewController.h; sourceTree = "<group>"; };
-		C278CB0727B8F3C9DE9D40A1939AA8E8 /* ResourceBundle-FuseUI-FuseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FuseUI-FuseUI-Info.plist"; sourceTree = "<group>"; };
 		C362408BCF988D0388595BB06037396D /* UIBarButtonItem+XJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+XJ.m"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIBarButtonItem+XJ.m"; sourceTree = "<group>"; };
 		C375E8B767409B017B16F8B1DADA21AE /* UIImage+Luban_iOS_Extension_h.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Luban_iOS_Extension_h.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+Luban_iOS_Extension_h.h"; sourceTree = "<group>"; };
-		C48A738BA2EB65BDC000DCD1BEA1E565 /* FuseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-prefix.pch"; sourceTree = "<group>"; };
 		C53FBBF85BE47E6D153079189BE151CE /* CTMediaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediaKit-umbrella.h"; sourceTree = "<group>"; };
 		C5A871C24781BE861AAAE824ED6E66F0 /* Pods-FuseUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6A1E11245597902B9F561CFFDB12246 /* UIViewController+KSGuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KSGuid.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIViewController+KSGuid.h"; sourceTree = "<group>"; };
 		C6E602613CB017752E892F4D22286E36 /* UIView+IB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+IB.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+IB.h"; sourceTree = "<group>"; };
 		C95C1939DFC3B7791EA4C7B8B499D54C /* NSObject+toModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+toModel.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+toModel.h"; sourceTree = "<group>"; };
 		CCB235D358043D924A16764C0313D055 /* UITableViewCell+reuse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+reuse.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UITableViewCell+reuse.h"; sourceTree = "<group>"; };
-		CD54EC0542D5BA645CECABB2D41F8A2E /* FPBottomSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPBottomSheetAnimator.m; sourceTree = "<group>"; };
+		CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUWebViewController.h; path = FuseUI/Classes/FUWebController/FUWebViewController.h; sourceTree = "<group>"; };
+		CE7EF7475C0DBD09E42C6AFF9A23E7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF22E13268F67ADEF307709276D8CA5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D034AF7C0729E12C0F1A7ACA9286F130 /* FuseGroupsKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseGroupsKits.release.xcconfig; sourceTree = "<group>"; };
 		D1BAED234D971637F97C67F9A0799273 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		D32349E978856A56BC5DF238566ECD87 /* FuseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-prefix.pch"; sourceTree = "<group>"; };
 		D3253C582B4F15DECFAAFDB2D10E7080 /* Pods-FuseUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-Info.plist"; sourceTree = "<group>"; };
 		D5571CE96452B7D264DDD806C72E0D75 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		D62C412DD3CC932DDE30AF0131666EAB /* UIScrollView+touch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+touch.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIScrollView+touch.h"; sourceTree = "<group>"; };
 		D6C2FA230DD1CB84C366370696C7BC01 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CTMediaKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D6DE2AEAD0BBA1B68851295580D4B3B0 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+fixOrientation.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+fixOrientation.h"; sourceTree = "<group>"; };
-		D73F1D766E7DF014282C2F0DB5908483 /* FPBottomSheetCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FPBottomSheetCell.xib; path = FuseUI/Assets/FPBottomSheetCell.xib; sourceTree = "<group>"; };
 		D89AC55A8BADF2D7647AB92FACFD4596 /* CTMediaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediaKit.modulemap; sourceTree = "<group>"; };
 		DB8EABF7E8AB259FA7ADCA7DA8225ED2 /* UIView+radius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+radius.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+radius.h"; sourceTree = "<group>"; };
-		E0BC6F3D2FA7E4D66764FA0E7A43C1C2 /* FuseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-umbrella.h"; sourceTree = "<group>"; };
+		DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseUI.release.xcconfig; sourceTree = "<group>"; };
 		E38F1B6E13FD8E26B5B809DC67AC431C /* Pods-FuseUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuseUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E3F0B267A589AD7CD2BAB6F86270F85B /* UIView+load.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+load.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIView+load.h"; sourceTree = "<group>"; };
 		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E478225EFAEE57305FA58E2E0FF3885D /* NSObject+FuEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FuEmpty.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/NSObject+FuEmpty.h"; sourceTree = "<group>"; };
-		E5624276DB8CBBD48DBF9201C0FE327E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuseUI-dummy.m"; sourceTree = "<group>"; };
+		E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPBottomSheetAnimator.m; path = FuseUI/Classes/FPBottomSheetPicker/FPBottomSheetAnimator.m; sourceTree = "<group>"; };
+		E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUDatePickerView.m; path = FuseUI/Classes/FUDatePicker/FUDatePickerView.m; sourceTree = "<group>"; };
 		E95C3CCA270617D6190D1D45CA7F7399 /* NSObject+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+NullSafe.m"; path = "FuseGroupsKits/Classes/BaseComponent/MBNullSafe/NSObject+NullSafe.m"; sourceTree = "<group>"; };
 		EB4876315B13F9A07320B1579E209AFB /* CTMediaKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediaKit-Info.plist"; sourceTree = "<group>"; };
 		EC812DD35E98D9B42694695646ADCF48 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		ED2C8329C65693ED5BB2E28D9C42D937 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
-		ED8423FAE0D6146177CA3A711DFE4489 /* FUHotspotButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUHotspotButton.m; sourceTree = "<group>"; };
+		EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseUI-umbrella.h"; sourceTree = "<group>"; };
 		EED5CF97D15077192D16DBB6DF9DDC12 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		F3CC08AE541815FAA4250EE8CFADAE9E /* FuseGroupsKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuseGroupsKits-prefix.pch"; sourceTree = "<group>"; };
-		F6A9019DB5926FC00758CF212DB09AD2 /* FUWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUWebViewController.h; sourceTree = "<group>"; };
 		F6C410D180D2E1E77E62E51FD62F51EB /* FuseLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FuseLoginViewController.m; path = FuseGroupsKits/Classes/BaseComponent/FuseLogin/FuseLoginViewController.m; sourceTree = "<group>"; };
-		F7A136E77B9F566975FDA4D15C5AB422 /* FPBottomSheetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPBottomSheetCell.h; sourceTree = "<group>"; };
 		F7FDD30354FC4B527BAFDAD336A5DC3F /* UIImage+create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+create.h"; path = "FuseGroupsKits/Classes/BaseComponent/FuseCategory/UIImage+create.h"; sourceTree = "<group>"; };
 		F8FDBA3C2444824BED2AB1810FB2549F /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		F986A3F3D2DA1F53AC13B07E291CC895 /* Pods-FuseUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseUI_Example.modulemap"; sourceTree = "<group>"; };
 		FCDE4A6D96BDBD04967099E2AB2B7FA7 /* Pods-FuseUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE08F072E2006590C5A561DBDE1573C9 /* FNAlertTipContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FNAlertTipContentView.xib; path = FuseUI/Assets/FNAlertTipContentView.xib; sourceTree = "<group>"; };
 		FE3287296D4489D6852A853D357FF88C /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
 		FE40B37EB92DD604D9C773CBA49D05D8 /* Pods-FuseUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseUI_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -445,16 +445,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03A4C41676C27CC9F21A689B4A48E69E /* FUDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				0E09BD8347E81F3A44DA8B95FD476773 /* FUDatePickerView.h */,
-				35D7CD9DBF92853F453ED85BEBB3CF3B /* FUDatePickerView.m */,
-			);
-			name = FUDatePicker;
-			path = FuseUI/Classes/FUDatePicker;
-			sourceTree = "<group>";
-		};
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,46 +453,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0ED29710DAA09A2948982A103E215D94 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73E5671AF59A814EA33907B2B975C9BF /* FuseUI.modulemap */,
-				80BC7185E25DB72079127437553C997D /* FuseUI-dummy.m */,
-				9C7435AF181905D1CBE0EDDFDFA84FED /* FuseUI-Info.plist */,
-				C48A738BA2EB65BDC000DCD1BEA1E565 /* FuseUI-prefix.pch */,
-				E0BC6F3D2FA7E4D66764FA0E7A43C1C2 /* FuseUI-umbrella.h */,
-				0312B725F9206F57A34AAF5EC34820C4 /* FuseUI.debug.xcconfig */,
-				57308E21A7E1D92C9D39187AC79A2FB9 /* FuseUI.release.xcconfig */,
-				C278CB0727B8F3C9DE9D40A1939AA8E8 /* ResourceBundle-FuseUI-FuseUI-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FuseUI";
-			sourceTree = "<group>";
-		};
-		13006F5C2442AB9DEBCC571887F4E32A /* AlertContentView */ = {
-			isa = PBXGroup;
-			children = (
-				76DF4DE4F34C85EA9DF53A072C6934F3 /* FNAlertTipContentView.h */,
-				AFCECE6238AEC8B3875B1D35DD0F4C14 /* FNAlertTipContentView.m */,
-			);
-			name = AlertContentView;
-			path = FuseUI/Classes/AlertContentView;
-			sourceTree = "<group>";
-		};
-		16E9E35B802BB9FE8C286381D234A133 /* FUHotspotButton */ = {
-			isa = PBXGroup;
-			children = (
-				9429B72B8AF4E228DB870E7FC1A8B05E /* FUHotspotButton.h */,
-				ED8423FAE0D6146177CA3A711DFE4489 /* FUHotspotButton.m */,
-			);
-			name = FUHotspotButton;
-			path = FuseUI/Classes/FUHotspotButton;
-			sourceTree = "<group>";
-		};
 		1C9C06F3193DCBB859FC9055F4F01302 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9DD8C9C54C3CB9869188EDDA253C65A /* FuseUI */,
+				BD1E9AA856D74D81D064AE92E80F9468 /* FuseUI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -675,20 +629,6 @@
 			path = "Target Support Files/Pods-FuseUI_Example";
 			sourceTree = "<group>";
 		};
-		44348C2E2C41D2B4F5B62F331D593A4D /* FPBottomSheetPicker */ = {
-			isa = PBXGroup;
-			children = (
-				724DBA516474CCAD40EB4FBE51EA2961 /* FPBottomSheetAnimator.h */,
-				CD54EC0542D5BA645CECABB2D41F8A2E /* FPBottomSheetAnimator.m */,
-				F7A136E77B9F566975FDA4D15C5AB422 /* FPBottomSheetCell.h */,
-				9AFBED64BD10F79C15C6E211B9A57C5F /* FPBottomSheetCell.m */,
-				45BB1D4ABE6F02868C23C43816C97C6F /* FPBottomSheetPicker.h */,
-				90E422AB905578FED70881B08BE3F83F /* FPBottomSheetPicker.m */,
-			);
-			name = FPBottomSheetPicker;
-			path = FuseUI/Classes/FPBottomSheetPicker;
-			sourceTree = "<group>";
-		};
 		4E9E34F78FE81235A2584E4AB3DD2832 /* FuseGroupsKits */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,6 +663,24 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CTMediaKit";
+			sourceTree = "<group>";
+		};
+		6B6028EB6F47B6057E328D4785BE1B58 /* FUWebController */ = {
+			isa = PBXGroup;
+			children = (
+				CD96EF1A3F73A0D8900C5B16DFED623B /* FUWebViewController.h */,
+				5BBB195C8F3B6C80D3F5756C9D102ECE /* FUWebViewController.m */,
+			);
+			name = FUWebController;
+			sourceTree = "<group>";
+		};
+		6F550352EA65DAFC05966A5FEA751E43 /* FUDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BD34EAAB8BF5868D5FB5B78F5A31846D /* FUDatePickerView.h */,
+				E9062B343AEAD3546B5E0EDD52010210 /* FUDatePickerView.m */,
+			);
+			name = FUDatePicker;
 			sourceTree = "<group>";
 		};
 		739D1BAD76C6DDE1D6BABB50F1DB9125 /* FuseLogin */ = {
@@ -783,12 +741,12 @@
 			name = BaseComponent;
 			sourceTree = "<group>";
 		};
-		9B5BCA3F9D57BB66D0C5AF475BDC0E40 /* Pod */ = {
+		9D813FFF3F15368E656F64FE3BC45DC6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2218E811463920944C626A914FBE5E3E /* FuseUI.podspec */,
-				6C2A438BF8B79FE8D0ED2ECA0ADDB7DB /* LICENSE */,
-				E5624276DB8CBBD48DBF9201C0FE327E /* README.md */,
+				6498326A4E3B58FDA725CA1FB0E96BAD /* FuseUI.podspec */,
+				CE7EF7475C0DBD09E42C6AFF9A23E7FB /* LICENSE */,
+				CF22E13268F67ADEF307709276D8CA5A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -805,6 +763,48 @@
 			);
 			name = YYModel;
 			path = YYModel;
+			sourceTree = "<group>";
+		};
+		AB0CEDFDA7CB8786C7CE6ED4E204CD95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E464D9AA8EE559FCE4010AA32D6E506 /* FuseUI.modulemap */,
+				E561B547D8B152F9942EA2C42EF08026 /* FuseUI-dummy.m */,
+				3B50AE7777CE1348C2C4C07B2BB0CDD2 /* FuseUI-Info.plist */,
+				D32349E978856A56BC5DF238566ECD87 /* FuseUI-prefix.pch */,
+				EECF54508AD7A376A791B6BD2346AF22 /* FuseUI-umbrella.h */,
+				8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */,
+				DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */,
+				339F0DAB610810895A1CFEDD3FA1FB8E /* ResourceBundle-FuseUI-FuseUI-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FuseUI";
+			sourceTree = "<group>";
+		};
+		B94CB82DD76144D27DD84E69D6D531B0 /* AlertContentView */ = {
+			isa = PBXGroup;
+			children = (
+				8FCABF85993379E73EA0B61996B4FF88 /* FNAlertTipContentView.h */,
+				96428DCDDE9B3A863D1E2C9E5982FFF1 /* FNAlertTipContentView.m */,
+			);
+			name = AlertContentView;
+			sourceTree = "<group>";
+		};
+		BD1E9AA856D74D81D064AE92E80F9468 /* FuseUI */ = {
+			isa = PBXGroup;
+			children = (
+				9A8A27F1C374C253AC12BF5E681D5DEE /* FNAlertTipContentView.xib */,
+				B07211FB08AAE7B166AE903C0BFEFED0 /* FPBottomSheetCell.xib */,
+				B94CB82DD76144D27DD84E69D6D531B0 /* AlertContentView */,
+				F703C816640A5AD978D470E83A7B02D7 /* FPBottomSheetPicker */,
+				6F550352EA65DAFC05966A5FEA751E43 /* FUDatePicker */,
+				E1166E8FE6991FDC86D853C4AAE1CEF2 /* FUHotspotButton */,
+				6B6028EB6F47B6057E328D4785BE1B58 /* FUWebController */,
+				9D813FFF3F15368E656F64FE3BC45DC6 /* Pod */,
+				AB0CEDFDA7CB8786C7CE6ED4E204CD95 /* Support Files */,
+			);
+			name = FuseUI;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -829,14 +829,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D503D39FD9491F15FF776F1FA537B44C /* FUWebController */ = {
+		E1166E8FE6991FDC86D853C4AAE1CEF2 /* FUHotspotButton */ = {
 			isa = PBXGroup;
 			children = (
-				F6A9019DB5926FC00758CF212DB09AD2 /* FUWebViewController.h */,
-				2E680F9001658DC03C986C3CC71096FB /* FUWebViewController.m */,
+				5299716419B9E9138891873242B4C314 /* FUHotspotButton.h */,
+				719D3DB12CDF3EFE3BB6E8EB5030A850 /* FUHotspotButton.m */,
 			);
-			name = FUWebController;
-			path = FuseUI/Classes/FUWebController;
+			name = FUHotspotButton;
 			sourceTree = "<group>";
 		};
 		E8938CF5C3ABA122A372CCC587F30669 /* Pods-FuseUI_Tests */ = {
@@ -855,41 +854,22 @@
 			path = "Target Support Files/Pods-FuseUI_Tests";
 			sourceTree = "<group>";
 		};
-		F9DD8C9C54C3CB9869188EDDA253C65A /* FuseUI */ = {
+		F703C816640A5AD978D470E83A7B02D7 /* FPBottomSheetPicker */ = {
 			isa = PBXGroup;
 			children = (
-				FE08F072E2006590C5A561DBDE1573C9 /* FNAlertTipContentView.xib */,
-				D73F1D766E7DF014282C2F0DB5908483 /* FPBottomSheetCell.xib */,
-				13006F5C2442AB9DEBCC571887F4E32A /* AlertContentView */,
-				44348C2E2C41D2B4F5B62F331D593A4D /* FPBottomSheetPicker */,
-				03A4C41676C27CC9F21A689B4A48E69E /* FUDatePicker */,
-				16E9E35B802BB9FE8C286381D234A133 /* FUHotspotButton */,
-				D503D39FD9491F15FF776F1FA537B44C /* FUWebController */,
-				9B5BCA3F9D57BB66D0C5AF475BDC0E40 /* Pod */,
-				0ED29710DAA09A2948982A103E215D94 /* Support Files */,
+				5FE2885F59FE5A05376D79A74187ECAA /* FPBottomSheetAnimator.h */,
+				E844DFB0F31A2F3D1B9F84E91F84DBDE /* FPBottomSheetAnimator.m */,
+				38B63B9AC953FCBE08312234C27FC87C /* FPBottomSheetCell.h */,
+				2E59519EEE4AC611EA50048BD069CA8E /* FPBottomSheetCell.m */,
+				B27F77B364859E66298212BAB988D39F /* FPBottomSheetPicker.h */,
+				BA47733A9550D027F9E18E14BA55D627 /* FPBottomSheetPicker.m */,
 			);
-			name = FuseUI;
-			path = ../..;
+			name = FPBottomSheetPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		093F9C03029A1613FF9A1D05E2320D5B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				533315E1CBA0C31FFE09F46B45042778 /* FNAlertTipContentView.h in Headers */,
-				283699F8711795E69320D0BCFCE99546 /* FPBottomSheetAnimator.h in Headers */,
-				ADF89BC4E428493F8E1143461F0F072F /* FPBottomSheetCell.h in Headers */,
-				FB2C2A3F35FE758EC4FC751EF4F8F265 /* FPBottomSheetPicker.h in Headers */,
-				11C1E7C4A587E601E634455AACFB3772 /* FUDatePickerView.h in Headers */,
-				10E3933DD478015501EA2D4955706F39 /* FUHotspotButton.h in Headers */,
-				25C101B8610E53E99ADB268BCE758450 /* FuseUI-umbrella.h in Headers */,
-				694CDB45787A686556198C1406F68551 /* FUWebViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14F95A4F991EEA07A242C8DCE73FBEF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -923,6 +903,21 @@
 				D5EDE04A6EB1E58E621B0B7AC1FA8ACF /* YYClassInfo.h in Headers */,
 				D9E42BF71DB7257F9A9208EC4B03341F /* YYModel.h in Headers */,
 				38841AA4A161AC86B26BA53E9744BFF7 /* YYModel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37BFC249219AF336172D0D5B69E28AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F5FA32E7997396B1EE3A75D66F034 /* FNAlertTipContentView.h in Headers */,
+				435B3FB10D4ED9734103268F070F0122 /* FPBottomSheetAnimator.h in Headers */,
+				77E83D17CD87D2D365AC1BE6A51EB6E7 /* FPBottomSheetCell.h in Headers */,
+				655D6FF4F89BDD8853ACE1DEB403514A /* FPBottomSheetPicker.h in Headers */,
+				A4D224519E093AC2C6E0A45895F9B813 /* FUDatePickerView.h in Headers */,
+				101925C8D7E1FA9D74909AC723EB61D5 /* FUHotspotButton.h in Headers */,
+				99F7762D5090355D3BF0022B09B7D3A2 /* FuseUI-umbrella.h in Headers */,
+				6AB8F995DEF68022429EFBAB749E2548 /* FUWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1119,8 +1114,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C63E3EED25865DAB74E3C8A47C8B23 /* Build configuration list for PBXNativeTarget "FuseUI" */;
 			buildPhases = (
-				093F9C03029A1613FF9A1D05E2320D5B /* Headers */,
-				94E3507EA8E80C5DC3396D8335C8F2C5 /* Sources */,
+				A37BFC249219AF336172D0D5B69E28AF /* Headers */,
+				1583127C73DB68728155384145FD3226 /* Sources */,
 				1FCF3D00F075A9FC73C8A766F5C1F3F4 /* Frameworks */,
 				054EEB7EC7559B1151BECB8197E6375C /* Resources */,
 			);
@@ -1232,18 +1227,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94E3507EA8E80C5DC3396D8335C8F2C5 /* Sources */ = {
+		1583127C73DB68728155384145FD3226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5D2D25F009911C8BCE96F9B74482FD /* FNAlertTipContentView.m in Sources */,
-				F71A51ED7E50E9EA63D4089BBBBB0E55 /* FPBottomSheetAnimator.m in Sources */,
-				E85E7849E77BD29D033D3476FF05A7D5 /* FPBottomSheetCell.m in Sources */,
-				2147DA5097A55430932D8E32612342F3 /* FPBottomSheetPicker.m in Sources */,
-				4636BA1258E836EE72AF8DABC85C1282 /* FUDatePickerView.m in Sources */,
-				0470812F779DB098CF309FC072D30A8C /* FUHotspotButton.m in Sources */,
-				FEA37AA6C7415F563C2503016305294B /* FuseUI-dummy.m in Sources */,
-				BA9FD9E9DECD2C247F14CD776D47B87A /* FUWebViewController.m in Sources */,
+				53C664062904D2E41F86EC791A5F4200 /* FNAlertTipContentView.m in Sources */,
+				852E239E493F43B06420C1A4355F2229 /* FPBottomSheetAnimator.m in Sources */,
+				BE0CDC8EC92BA23AC33C4A6EF77FECAD /* FPBottomSheetCell.m in Sources */,
+				F86AF235E1B4144F08F0F978F452EBCC /* FPBottomSheetPicker.m in Sources */,
+				972FC13A7F172FB34421C7597FBEC3AD /* FUDatePickerView.m in Sources */,
+				B3E42F9EBBDB94D2E0E138AC6B9BE16C /* FUHotspotButton.m in Sources */,
+				513C1B9A81EB45809371FC3FEF11C56C /* FuseUI-dummy.m in Sources */,
+				F6153AD8D67CF16710627B777C70C8BE /* FUWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1672,7 +1667,7 @@
 		};
 		62D83E3AFA91BB88753F2C5F3152FF80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57308E21A7E1D92C9D39187AC79A2FB9 /* FuseUI.release.xcconfig */;
+			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
 				IBSC_MODULE = FuseUI;
@@ -1750,7 +1745,7 @@
 		};
 		A4B0BAAB10693873316CABC44712D87D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0312B725F9206F57A34AAF5EC34820C4 /* FuseUI.debug.xcconfig */;
+			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1780,7 +1775,7 @@
 		};
 		A98BD0EFCBB8965C2FE0F2AF1503D4B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57308E21A7E1D92C9D39187AC79A2FB9 /* FuseUI.release.xcconfig */;
+			baseConfigurationReference = DBD8C117353B2FDB5B2D5B6E73AA0FC1 /* FuseUI.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1963,7 +1958,7 @@
 		};
 		D2C0EA6B595DB8DAC901CE2AE877F139 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0312B725F9206F57A34AAF5EC34820C4 /* FuseUI.debug.xcconfig */;
+			baseConfigurationReference = 8FEEC61CB1F9132DB7425F1DB170CE6D /* FuseUI.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FuseUI";
 				IBSC_MODULE = FuseUI;

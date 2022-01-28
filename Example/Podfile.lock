@@ -29,7 +29,22 @@ PODS:
   - FuseGroupsKits/BaseComponent/MBNullSafe (1.0.5):
     - CTMediaKit
     - YYModel
-  - FuseUI (1.0.0):
+  - FuseUI (1.0.2):
+    - FuseGroupsKits (= 1.0.5)
+    - FuseUI/AlertContentView (= 1.0.2)
+    - FuseUI/FPBottomSheetPicker (= 1.0.2)
+    - FuseUI/FUDatePicker (= 1.0.2)
+    - FuseUI/FUHotspotButton (= 1.0.2)
+    - FuseUI/FUWebController (= 1.0.2)
+  - FuseUI/AlertContentView (1.0.2):
+    - FuseGroupsKits (= 1.0.5)
+  - FuseUI/FPBottomSheetPicker (1.0.2):
+    - FuseGroupsKits (= 1.0.5)
+  - FuseUI/FUDatePicker (1.0.2):
+    - FuseGroupsKits (= 1.0.5)
+  - FuseUI/FUHotspotButton (1.0.2):
+    - FuseGroupsKits (= 1.0.5)
+  - FuseUI/FUWebController (1.0.2):
     - FuseGroupsKits (= 1.0.5)
   - YYModel (1.0.4)
 
@@ -51,9 +66,9 @@ SPEC CHECKSUMS:
   CTMediaKit: b6842ef3440687ded8b7d95d10e4b24569a13c1e
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FuseGroupsKits: 43e0f17e82f550a16da59197d747bdf6e4d34036
-  FuseUI: c0f43cb16f2095458b645ec16494163d366fc3d4
+  FuseUI: de6515125f7955be126173c9a88310cc9341fde2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c62d7132a0be2e60ba3bbe40c2c4674523ad12f0
+PODFILE CHECKSUM: d07939330e01561346055b6b53f3af0a791b8867
 
 COCOAPODS: 1.11.2
