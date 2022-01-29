@@ -1,6 +1,6 @@
 {
   "name": "FuseUI",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "summary": "A short description of FuseUI.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseUI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseUI.git",
-    "tag": "1.0.2"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,6 +21,11 @@
   "resource_bundles": {
     "FuseUI": [
       "FuseUI/Assets/*.xib"
+    ]
+  },
+  "dependencies": {
+    "FuseGroupsKits": [
+      "1.0.3"
     ]
   },
   "subspecs": [

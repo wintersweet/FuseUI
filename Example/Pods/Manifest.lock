@@ -1,23 +1,73 @@
 PODS:
-  - FuseUI (1.0.2):
-    - FuseUI/AlertContentView (= 1.0.2)
-    - FuseUI/FUDatePicker (= 1.0.2)
-    - FuseUI/FUHotspotButton (= 1.0.2)
-    - FuseUI/FUWebController (= 1.0.2)
-  - FuseUI/AlertContentView (1.0.2)
-  - FuseUI/FUDatePicker (1.0.2)
-  - FuseUI/FUHotspotButton (1.0.2)
-  - FuseUI/FUWebController (1.0.2)
+  - CTMediaKit (0.1.0):
+    - CTMediator
+  - CTMediator (46)
+  - FBSDKCoreKit (6.3.0):
+    - FBSDKCoreKit/Basics (= 6.3.0)
+    - FBSDKCoreKit/Core (= 6.3.0)
+  - FBSDKCoreKit/Basics (6.3.0)
+  - FBSDKCoreKit/Core (6.3.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKShareKit (6.3.0):
+    - FBSDKShareKit/Share (= 6.3.0)
+  - FBSDKShareKit/Share (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - FuseGroupsKits (1.0.3):
+    - CTMediaKit (= 0.1.0)
+    - FBSDKShareKit (~> 6.3.0)
+    - FuseGroupsKits/BaseComponent (= 1.0.3)
+  - FuseGroupsKits/BaseComponent (1.0.3):
+    - CTMediaKit (= 0.1.0)
+    - FBSDKShareKit (~> 6.3.0)
+    - FuseGroupsKits/BaseComponent/FuGrowTextView (= 1.0.3)
+    - FuseGroupsKits/BaseComponent/FuseLogin (= 1.0.3)
+    - FuseGroupsKits/BaseComponent/FuTextField (= 1.0.3)
+  - FuseGroupsKits/BaseComponent/FuGrowTextView (1.0.3):
+    - CTMediaKit (= 0.1.0)
+    - FBSDKShareKit (~> 6.3.0)
+  - FuseGroupsKits/BaseComponent/FuseLogin (1.0.3):
+    - CTMediaKit (= 0.1.0)
+    - FBSDKShareKit (~> 6.3.0)
+  - FuseGroupsKits/BaseComponent/FuTextField (1.0.3):
+    - CTMediaKit (= 0.1.0)
+    - FBSDKShareKit (~> 6.3.0)
+  - FuseUI (1.0.4):
+    - FuseGroupsKits (= 1.0.3)
+    - FuseUI/AlertContentView (= 1.0.4)
+    - FuseUI/FUDatePicker (= 1.0.4)
+    - FuseUI/FUHotspotButton (= 1.0.4)
+    - FuseUI/FUWebController (= 1.0.4)
+  - FuseUI/AlertContentView (1.0.4):
+    - FuseGroupsKits (= 1.0.3)
+  - FuseUI/FUDatePicker (1.0.4):
+    - FuseGroupsKits (= 1.0.3)
+  - FuseUI/FUHotspotButton (1.0.4):
+    - FuseGroupsKits (= 1.0.3)
+  - FuseUI/FUWebController (1.0.4):
+    - FuseGroupsKits (= 1.0.3)
 
 DEPENDENCIES:
   - FuseUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediaKit
+    - CTMediator
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - FuseGroupsKits
 
 EXTERNAL SOURCES:
   FuseUI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FuseUI: 74610dce00399b827aabbcc87ecb0118b0162310
+  CTMediaKit: b6842ef3440687ded8b7d95d10e4b24569a13c1e
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  FBSDKCoreKit: 5d55c8f3007c9c49b793617b9102e46355fc7e17
+  FBSDKShareKit: cbd309f29d00e596bc28319724a7519940e804fa
+  FuseGroupsKits: 26dfdb3ab70f51a6802f47d873f17d2f1d5c59ce
+  FuseUI: eff402c5943b151f6ec893c7f41d80dbf0c4bf21
 
 PODFILE CHECKSUM: d07939330e01561346055b6b53f3af0a791b8867
 
