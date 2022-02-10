@@ -31,19 +31,19 @@ PODS:
   - FuseGroupsKits/BaseComponent/FuTextField (1.0.3):
     - CTMediaKit (= 0.1.0)
     - FBSDKShareKit (~> 6.3.0)
-  - FuseUI (1.0.4):
+  - FuseUI (1.0.5):
     - FuseGroupsKits (= 1.0.3)
-    - FuseUI/AlertContentView (= 1.0.4)
-    - FuseUI/FUDatePicker (= 1.0.4)
-    - FuseUI/FUHotspotButton (= 1.0.4)
-    - FuseUI/FUWebController (= 1.0.4)
-  - FuseUI/AlertContentView (1.0.4):
+    - FuseUI/AlertContentView (= 1.0.5)
+    - FuseUI/FUDatePicker (= 1.0.5)
+    - FuseUI/FUHotspotButton (= 1.0.5)
+    - FuseUI/FUWebController (= 1.0.5)
+  - FuseUI/AlertContentView (1.0.5):
     - FuseGroupsKits (= 1.0.3)
-  - FuseUI/FUDatePicker (1.0.4):
+  - FuseUI/FUDatePicker (1.0.5):
     - FuseGroupsKits (= 1.0.3)
-  - FuseUI/FUHotspotButton (1.0.4):
+  - FuseUI/FUHotspotButton (1.0.5):
     - FuseGroupsKits (= 1.0.3)
-  - FuseUI/FUWebController (1.0.4):
+  - FuseUI/FUWebController (1.0.5):
     - FuseGroupsKits (= 1.0.3)
 
 DEPENDENCIES:
@@ -67,7 +67,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 5d55c8f3007c9c49b793617b9102e46355fc7e17
   FBSDKShareKit: cbd309f29d00e596bc28319724a7519940e804fa
   FuseGroupsKits: 26dfdb3ab70f51a6802f47d873f17d2f1d5c59ce
-  FuseUI: eff402c5943b151f6ec893c7f41d80dbf0c4bf21
+  FuseUI: 4ffbf9f844c311fbe6ecde2447d05c218801e3a5
 
 PODFILE CHECKSUM: d07939330e01561346055b6b53f3af0a791b8867
 

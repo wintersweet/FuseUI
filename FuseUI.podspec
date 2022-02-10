@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseUI'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of FuseUI.'
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,7 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'FuseUI/Classes/**/*.{h,m}'
   s.subspec 'AlertContentView' do |t|
       t.source_files = 'FuseUI/Classes/AlertContentView/*'
+#      t.ios.resource = 'FuseSensorsAnalytics/FNAlertTipContentView.xib'
      end
   s.subspec 'FUDatePicker' do |t|
       t.source_files = 'FuseUI/Classes/FUDatePicker/*.{h,m}'
