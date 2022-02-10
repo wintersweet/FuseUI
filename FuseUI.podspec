@@ -52,9 +52,9 @@ TODO: Add long description of the pod here.
       t.source_files = 'FuseUI/Classes/FUWebController/*.{h,m}'
      end
   
-  s.resource_bundles = {
-    'FuseUI' => ['FuseUI/Assets/*.xib']
-  }
+#  s.resource_bundles = {
+#    'FuseUI' => ['FuseUI/Assets/*']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
